@@ -27,8 +27,7 @@ program:
     description: |
       - Modern browser Firefox/Chrome/Edge
       - [UGENE](http://ugene.net/download-all.html) 
-      - [Notepad++](https://notepad-plus-plus.org/downloads/) 
-      - or [Sublime](https://www.sublimetext.com/download)
+      - [Notepad++](https://notepad-plus-plus.org/downloads/) or [Sublime](https://www.sublimetext.com/download)
       - [Figtree](https://github.com/rambaut/figtree/releases)
       - [Inkscape](https://inkscape.org/release/inkscape-1.2.1/)
       - MS office or [LibreOffice](https://www.libreoffice.org/)
@@ -44,11 +43,12 @@ program:
     trainings:
       - external:
         title: DNA Sequencing - Definition, Principle, Steps, Types, Uses
+        description: test
         other:
           - label: Types of Sequencing
-            link: https://thebiologynotes.com/dna-sequencing-principle-steps-types-uses/
+            value: https://thebiologynotes.com/dna-sequencing-principle-steps-types-uses/
           - label: Overview of NGS technology
-            link: https://thebiologynotes.com/dna-sequencing-principle-steps-types-uses/
+            value: https://thebiologynotes.com/dna-sequencing-principle-steps-types-uses/
       - tutorial: introduction/galaxy-intro-ngs-data-managment
       - video: galaxy/intro
       - video: sequence-analysis/quality-control/slides
