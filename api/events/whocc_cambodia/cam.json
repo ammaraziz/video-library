@@ -5,9 +5,6 @@
   "description": "Cambodia Training",
   "certbot": false,
   "institutions": [
-    "gtn",
-    "gallantries",
-    "biocommons",
     "whocc"
   ],
   "instructors": [
@@ -17,11 +14,43 @@
     "start": "2022-10-10",
     "end": "2022-10-15"
   },
+  "practical": [
+    {
+      "name": "Infustracture",
+      "text": "[Galacy Australia Training Server]([https://usegalaxy.eu](https://usegalaxy.org.au/join-training/whocc_cambodia))"
+    }
+  ],
+  "setup": {
+    "servers": [
+      {
+        "server": "au",
+        "tiaas": "whocc_cambodia"
+      }
+    ]
+  },
   "program": {
+    "day0": {
+      "title": "Please install the following software",
+      "description": "- Firefox/Chromeish\n- UGENE - http://ugene.net/download-all.html\n- Windows [Notepad++](https://notepad-plus-plus.org/downloads/) or [Sublime](https://www.sublimetext.com/download/)\n- Macos/Linux [Sublime](https://www.sublimetext.com/download)\n- Figtree - https://github.com/rambaut/figtree/releases\n- Inkscape - https://inkscape.org/release/inkscape-1.2.1/\n- MS office or [LibreOffice](https://www.libreoffice.org/)\n- 7zip - https://www.7-zip.org/\n"
+    },
     "day1": {
-      "title": "Day 1",
-      "description": "Overview and theory of NGS technologies",
+      "title": "Day 1 - Overview and theory of NGS technologies",
+      "description": "Objectives:\n  - Gain an understanding  of sequencing technology (Sanger, Illumina, ONT)\n  - Overview of Illumina/ONT output file structure\n  - Overview of commonly used file formats (Fasta, Fastq etc)\n  - Recommended best practices\n",
       "trainings": [
+        {
+          "external": null,
+          "title": "DNA Sequencing - Definition, Principle, Steps, Types, Uses",
+          "other": [
+            {
+              "label": "Types of Sequencing",
+              "link": "https://thebiologynotes.com/dna-sequencing-principle-steps-types-uses/"
+            },
+            {
+              "label": "Overview of NGS technology",
+              "link": "https://thebiologynotes.com/dna-sequencing-principle-steps-types-uses/"
+            }
+          ]
+        },
         {
           "tutorial": "introduction/galaxy-intro-ngs-data-managment"
         },
