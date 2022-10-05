@@ -5,6 +5,8 @@ title: "WHOCC Bioinformatics Training"
 description: "Cambodia Training"
 certbot: false
 institutions: [gtn, gallantries, biocommons, whocc]
+instructors:
+ - 
 
 date:
   start: 2022-10-10
@@ -12,7 +14,8 @@ date:
 
 program:
   day1:
-    title: "Day 1 - Overview and theory of NGS technologies"
+    title: "Day 1"
+    description: "Overview and theory of NGS technologies"
     trainings:
       - tutorial: introduction/galaxy-intro-ngs-data-managment
       - video: galaxy/intro
@@ -25,6 +28,5 @@ program:
     description: "Some description about today's content"
     trainings:
       - video: variant-analysis/sars-cov-2-variant-discovery/tutorial
-
 ---
 ## Course Description
