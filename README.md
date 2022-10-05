@@ -18,3 +18,5 @@ We aim to make it easy for anybody in the Galaxy community to setup a course web
 You can also use our [course builder](https://gallantries.github.io/video-library/course-builder) (in beta), to help you create this definition file.
 
 Since the course builder is still in development, feel free to contact [Saskia](mailto:saskiahiltemann@gmail.com) for help setting up an event page.
+
+mod for push
