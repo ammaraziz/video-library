@@ -31,7 +31,7 @@
   "program": {
     "day0": {
       "title": "Please install the following software",
-      "description": "- Modern browser Firefox/Chrome/Edge\n- [UGENE](http://ugene.net/download-all.html) \n- [Notepad++](https://notepad-plus-plus.org/downloads/) \n- or [Sublime](https://www.sublimetext.com/download)\n- [Figtree](https://github.com/rambaut/figtree/releases)\n- [Inkscape](https://inkscape.org/release/inkscape-1.2.1/)\n- MS office or [LibreOffice](https://www.libreoffice.org/)\n- [7zip](https://www.7-zip.org/)\n"
+      "description": "- Modern browser Firefox/Chrome/Edge\n- [UGENE](http://ugene.net/download-all.html) \n- [Notepad++](https://notepad-plus-plus.org/downloads/) or [Sublime](https://www.sublimetext.com/download)\n- [Figtree](https://github.com/rambaut/figtree/releases)\n- [Inkscape](https://inkscape.org/release/inkscape-1.2.1/)\n- MS office or [LibreOffice](https://www.libreoffice.org/)\n- [7zip](https://www.7-zip.org/)\n"
     },
     "day1": {
       "title": "Day 1 - Overview and theory of NGS technologies",
@@ -40,14 +40,15 @@
         {
           "external": null,
           "title": "DNA Sequencing - Definition, Principle, Steps, Types, Uses",
+          "description": "test",
           "other": [
             {
               "label": "Types of Sequencing",
-              "link": "https://thebiologynotes.com/dna-sequencing-principle-steps-types-uses/"
+              "value": "https://thebiologynotes.com/dna-sequencing-principle-steps-types-uses/"
             },
             {
               "label": "Overview of NGS technology",
-              "link": "https://thebiologynotes.com/dna-sequencing-principle-steps-types-uses/"
+              "value": "https://thebiologynotes.com/dna-sequencing-principle-steps-types-uses/"
             }
           ]
         },
