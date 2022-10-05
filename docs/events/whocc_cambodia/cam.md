@@ -20,6 +20,4 @@ program:
       - video: sequence-analysis/quality-control/tutorial
       - video: sequence-analysis/mapping/slides
       - video: sequence-analysis/mapping/tutorial
-      
-## Course Description
 ---
