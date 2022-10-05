@@ -23,7 +23,7 @@ setup:
     - server: au
 
 program:
-   day0:
+  day0:
      title: Please install the following software
      description: |
       - Firefox/Chromeish
