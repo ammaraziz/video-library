@@ -4,7 +4,6 @@ id: camtraining
 title: "WHOCC Bioinformatics Training"
 description: "Cambodia Training"
 certbot: false
-instructors: Ammar Aziz
 institutions: [gtn, gallantries, biocommons, whocc]
 
 date:
