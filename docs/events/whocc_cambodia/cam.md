@@ -22,7 +22,9 @@ setup:
       tiaas: whocc_cambodia  # if using TiaaS for this server, put the keyword here
     - server: au
 
+program:
 ## Setup
+
    day0:
      title: Please install the following software
      description: |
@@ -36,7 +38,6 @@ setup:
       - 7zip - https://www.7-zip.org/
 
 ## Day 1 - Monday
-
   day1:
     title: "Overview and theory of NGS technologies"
     description: |
