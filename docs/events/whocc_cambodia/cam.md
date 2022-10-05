@@ -38,7 +38,7 @@ program:
       - 7zip - https://www.7-zip.org/
 
 ## Day 1 - Monday
-   day1:
+  day1:
     title: "Overview and theory of NGS technologies"
     description: |
       Objectives:
@@ -67,6 +67,3 @@ program:
       - video: variant-analysis/sars-cov-2-variant-discovery/tutorial
 
 ## Course Description
-goes here
-
----
