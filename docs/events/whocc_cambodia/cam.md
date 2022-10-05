@@ -71,6 +71,7 @@ Objectives:
 
 ## Course Description
 goes here
+
 ---
 
 
