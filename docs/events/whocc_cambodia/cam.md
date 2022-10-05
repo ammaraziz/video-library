@@ -5,7 +5,7 @@ title: "WHOCC Bioinformatics Training"
 description: "Cambodia Training"
 certbot: false
 institutions: [whocc]
-instructors: []
+instructors: [aaziz]
 
 date:
   start: 2022-10-10
