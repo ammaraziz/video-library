@@ -43,13 +43,26 @@ program:
       - external:
           title: DNA Sequencing - Definition, Principle, Steps, Types, Uses
           other:
-            - label: Types of Sequencing
+            - label: 1 Types of Sequencing
               link: https://thebiologynotes.com/dna-sequencing-principle-steps-types-uses/
-            - label: Overview of NGS technology
+            - label: 2 Overview of NGS technology
               link: https://thebiologynotes.com/next-generation-sequencing-ngs/
       - video: introduction/galaxy-intro-ngs-data-managment
-        prefix: Common data formats1
-        title: Common data formats2
+        prefix: Common data formats
+      - external:
+          title: Common data formats 2
+          other:
+            - label: Sequence file formats 1
+              link: https://www.algosome.com/articles/bioinformatics-sequence-file-formats.html
+            - label: vcf and gff
+              link: https://www.hadriengourle.com/tutorials/file_formats/
+      - external: 
+          title: Understanding the output of Illumina/ONT
+          other:
+            - label: Illumina ncl2fastq2 [pdf]
+              link: https://support.illumina.com/content/dam/illumina-support/documents/documentation/software_documentation/bcl2fastq/bcl2fastq2-v2-20-software-guide-15051736-03.pdf
+            - label: ONT
+              link: https://stab.st-andrews.ac.uk/wiki/index.php/MinKNOW_folders_and_log_files
       - video: galaxy/intro
       - video: sequence-analysis/quality-control/slides
       - video: sequence-analysis/mapping/slides
