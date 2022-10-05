@@ -44,6 +44,7 @@ program:
       - external:
         title: DNA Sequencing - Definition, Principle, Steps, Types, Uses
         description: test
+        author: [dbrites]
         other:
           - label: Types of Sequencing
             value: https://thebiologynotes.com/dna-sequencing-principle-steps-types-uses/
