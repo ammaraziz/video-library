@@ -23,8 +23,6 @@ setup:
     - server: au
 
 program:
-## Setup
-
    day0:
      title: Please install the following software
      description: |
@@ -37,9 +35,8 @@ program:
       - MS office or [LibreOffice](https://www.libreoffice.org/)
       - 7zip - https://www.7-zip.org/
 
-## Day 1 - Monday
   day1:
-    title: "Overview and theory of NGS technologies"
+    title: "Day 1 - Overview and theory of NGS technologies"
     description: |
       Objectives:
         - Gain an understanding  of sequencing technology (Sanger, Illumina, ONT)
@@ -67,3 +64,4 @@ program:
       - video: variant-analysis/sars-cov-2-variant-discovery/tutorial
 
 ## Course Description
+---
