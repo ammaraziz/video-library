@@ -21,7 +21,7 @@ setup:
     - server: au
 
 program:
-  day0:
+  day1:
      title: Please install the following software
      description: |
       - Firefox/Chromeish
@@ -32,8 +32,7 @@ program:
       - Inkscape - https://inkscape.org/release/inkscape-1.2.1/
       - MS office or [LibreOffice](https://www.libreoffice.org/)
       - 7zip - https://www.7-zip.org/
-
-  day1:
+  day2:
     title: "Day 1 - Overview and theory of NGS technologies"
     description: |
       Objectives:
@@ -55,7 +54,7 @@ program:
       - video: sequence-analysis/quality-control/tutorial
       - video: sequence-analysis/mapping/slides
       - video: sequence-analysis/mapping/tutorial
-  day2:
+  day3:
     title: "Day 2"
     description: "Some description about today's content"
     trainings:
