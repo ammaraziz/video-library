@@ -13,20 +13,7 @@ date:
 program:
   day1:
     title: "Day 1 - Overview and theory of NGS technologies"
-    description: |
-      Objectives:
-        - Gain an understanding  of sequencing technology (Sanger, Illumina, ONT)
-        - Overview of Illumina/ONT output file structure
-        - Overview of commonly used file formats (Fasta, Fastq etc)
-        - Recommended best practices
     trainings:
-      - external:
-        title: DNA Sequencing - Definition, Principle, Steps, Types, Uses
-        other:
-          - label: Types of Sequencing
-            link: https://thebiologynotes.com/dna-sequencing-principle-steps-types-uses/
-          - label: Overview of NGS technology
-            link: https://thebiologynotes.com/dna-sequencing-principle-steps-types-uses/
       - tutorial: introduction/galaxy-intro-ngs-data-managment
       - video: galaxy/intro
       - video: sequence-analysis/quality-control/slides
