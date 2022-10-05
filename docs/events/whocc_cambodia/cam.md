@@ -30,8 +30,8 @@ feedback:
 Please install the following software:
   - Firefox/Chromeish
   - UGENE - http://ugene.net/download-all.html
-  - Windows: [Notepad++](https://notepad-plus-plus.org/downloads/) or [Sublime](https://www.sublimetext.com/download/)
-  - Macos/Linux: [Sublime](https://www.sublimetext.com/download)
+  - Windows [Notepad++](https://notepad-plus-plus.org/downloads/) or [Sublime](https://www.sublimetext.com/download/)
+  - Macos/Linux [Sublime](https://www.sublimetext.com/download)
   - Figtree - https://github.com/rambaut/figtree/releases
   - Inkscape - https://inkscape.org/release/inkscape-1.2.1/
   - MS office or [LibreOffice](https://www.libreoffice.org/)
@@ -72,6 +72,3 @@ Objectives:
 goes here
 
 ---
-
-
-
