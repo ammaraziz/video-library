@@ -1,23 +1,25 @@
 ---
 layout: event
-id: camtraining
-title: "WHOCC Bioinformatics Training"
-description: "Cambodia Training"
-certbot: false
-institutions: [gtn, gallantries, biocommons, whocc]
+title: "My Awesome Event"
+description: "Best training since bread slicing lessons"
+instructors:
+ - 
 
-date:
-  start: 2022-10-10
-  end: 2022-10-15
-  
 program:
   day1:
-    title: "Day 1 - Overview and theory of NGS technologies"
+    title: "Day 1"
+    description: "Some description about today's content"
     trainings:
-      - tutorial: introduction/galaxy-intro-ngs-data-managment
-      - video: galaxy/intro
-      - video: sequence-analysis/quality-control/slides
-      - video: sequence-analysis/quality-control/tutorial
-      - video: sequence-analysis/mapping/slides
-      - video: sequence-analysis/mapping/tutorial
+      - video: climate/pangeo/tutorial
+      - video: climate/pangeo-notebook/tutorial
+      - video: ecology/PAMPA-toolsuite-tutorial/tutorial
+      - video: galaxy-interface/workflow-parameters/tutorial
+  day2:
+    title: "Day 2"
+    description: "Some description about today's content"
+    trainings:
+      - video: galaxy-interface/upload-rules
+      - video: galaxy-interface/workflow-automation
 ---
+
+You can write a bit more about your course here!
