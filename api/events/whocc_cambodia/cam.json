@@ -41,6 +41,9 @@
           "external": null,
           "title": "DNA Sequencing - Definition, Principle, Steps, Types, Uses",
           "description": "test",
+          "author": [
+            "dbrites"
+          ],
           "other": [
             {
               "label": "Types of Sequencing",
