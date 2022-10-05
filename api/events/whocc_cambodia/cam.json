@@ -38,22 +38,23 @@
       "description": "Objectives:\n  - Gain an understanding  of sequencing technology (Sanger, Illumina, ONT)\n  - Overview of Illumina/ONT output file structure\n  - Overview of commonly used file formats (Fasta, Fastq etc)\n  - Recommended best practices\n",
       "trainings": [
         {
-          "external": null,
-          "title": "DNA Sequencing - Definition, Principle, Steps, Types, Uses",
-          "description": "test",
-          "author": [
-            "dbrites"
-          ],
-          "other": [
-            {
-              "label": "Types of Sequencing",
-              "value": "https://thebiologynotes.com/dna-sequencing-principle-steps-types-uses/"
-            },
-            {
-              "label": "Overview of NGS technology",
-              "value": "https://thebiologynotes.com/dna-sequencing-principle-steps-types-uses/"
-            }
-          ]
+          "external": {
+            "title": "DNA Sequencing - Definition, Principle, Steps, Types, Uses",
+            "description": "test",
+            "author": [
+              "dbrites"
+            ],
+            "other": [
+              {
+                "label": "Types of Sequencing",
+                "value": "https://thebiologynotes.com/dna-sequencing-principle-steps-types-uses/"
+              },
+              {
+                "label": "Overview of NGS technology",
+                "value": "https://thebiologynotes.com/dna-sequencing-principle-steps-types-uses/"
+              }
+            ]
+          }
         },
         {
           "tutorial": "introduction/galaxy-intro-ngs-data-managment"
