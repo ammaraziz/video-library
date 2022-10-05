@@ -40,7 +40,6 @@
         {
           "external": {
             "title": "DNA Sequencing - Definition, Principle, Steps, Types, Uses",
-            "description": "test",
             "other": [
               {
                 "label": "Types of Sequencing",
@@ -48,13 +47,15 @@
               },
               {
                 "label": "Overview of NGS technology",
-                "link": "https://thebiologynotes.com/dna-sequencing-principle-steps-types-uses/"
+                "link": "https://thebiologynotes.com/next-generation-sequencing-ngs/"
               }
             ]
           }
         },
         {
-          "video": "introduction/galaxy-intro-ngs-data-managment"
+          "video": "introduction/galaxy-intro-ngs-data-managment",
+          "prefix": "Common data formats1",
+          "title": "Common data formats2"
         },
         {
           "video": "galaxy/intro"
@@ -77,5 +78,5 @@
       ]
     }
   },
-  "content": "\\n## Course Description\n"
+  "content": "\\n"
 }
