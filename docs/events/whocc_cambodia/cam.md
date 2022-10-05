@@ -5,8 +5,7 @@ title: "WHOCC Bioinformatics Training"
 description: "Cambodia Training"
 certbot: false
 institutions: [whocc]
-instructors:
- - 
+instructors: []
 
 date:
   start: 2022-10-10
@@ -49,7 +48,7 @@ program:
               link: https://thebiologynotes.com/dna-sequencing-principle-steps-types-uses/
             - label: Overview of NGS technology
               link: https://thebiologynotes.com/dna-sequencing-principle-steps-types-uses/
-      - tutorial: introduction/galaxy-intro-ngs-data-managment
+      - video: introduction/galaxy-intro-ngs-data-managment
       - video: galaxy/intro
       - video: sequence-analysis/quality-control/slides
       - video: sequence-analysis/mapping/slides
