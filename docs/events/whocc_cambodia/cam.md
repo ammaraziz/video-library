@@ -37,8 +37,6 @@ Please install the following software:
   - MS office or [LibreOffice](https://www.libreoffice.org/)
   - 7zip - https://www.7-zip.org/
 
-We will be using the Australian Galaxy server for all bioinformatics training.
-
 ## Day 1 - Monday
 Objectives:
   - Gain an understanding  of sequencing technology (Sanger, Illumina, ONT)
