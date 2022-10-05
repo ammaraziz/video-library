@@ -38,14 +38,15 @@ Please install the following software:
   - 7zip - https://www.7-zip.org/
 
 ## Day 1 - Monday
-Objectives:
-  - Gain an understanding  of sequencing technology (Sanger, Illumina, ONT)
-  - Overview of Illumina/ONT output file structure
-  - Overview of commonly used file formats (Fasta, Fastq etc)
-  - Recommended best practices
 
   day1:
     title: "Overview and theory of NGS technologies"
+    description: |
+      Objectives:
+        - Gain an understanding  of sequencing technology (Sanger, Illumina, ONT)
+        - Overview of Illumina/ONT output file structure
+        - Overview of commonly used file formats (Fasta, Fastq etc)
+        - Recommended best practices
     trainings:
       - external:
         title: DNA Sequencing - Definition, Principle, Steps, Types, Uses
