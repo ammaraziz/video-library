@@ -12,7 +12,7 @@ date:
   end: 2021-10-15
 contacts: Ammar Aziz
 
-practical:  
+practical:
   - name: Infustracture
     text: "[Galacy Australia Training Server]([https://usegalaxy.eu](https://usegalaxy.org.au/join-training/whocc_cambodia))"
 
@@ -38,7 +38,7 @@ program:
       - 7zip - https://www.7-zip.org/
 
 ## Day 1 - Monday
-  day1:
+   day1:
     title: "Overview and theory of NGS technologies"
     description: |
       Objectives:
