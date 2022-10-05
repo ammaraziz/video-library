@@ -22,9 +22,6 @@ setup:
       tiaas: whocc_cambodia  # if using TiaaS for this server, put the keyword here
     - server: au
 
-feedback: 
-  form: "https://feedback.example.com"
-
 ## Setup
    day0:
      title: Please install the following software
