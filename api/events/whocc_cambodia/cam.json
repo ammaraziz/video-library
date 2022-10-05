@@ -1,26 +1,44 @@
 {
   "layout": "event",
-  "title": "My Awesome Event",
-  "description": "Best training since bread slicing lessons",
+  "id": "camtraining",
+  "title": "WHOCC Bioinformatics Training",
+  "description": "Cambodia Training",
+  "certbot": false,
+  "institutions": [
+    "gtn",
+    "gallantries",
+    "biocommons",
+    "whocc"
+  ],
   "instructors": [
     null
   ],
+  "date": {
+    "start": "2022-10-10",
+    "end": "2022-10-15"
+  },
   "program": {
     "day1": {
       "title": "Day 1",
-      "description": "Some description about today's content",
+      "description": "Overview and theory of NGS technologies",
       "trainings": [
         {
-          "video": "climate/pangeo/tutorial"
+          "tutorial": "introduction/galaxy-intro-ngs-data-managment"
         },
         {
-          "video": "climate/pangeo-notebook/tutorial"
+          "video": "galaxy/intro"
         },
         {
-          "video": "ecology/PAMPA-toolsuite-tutorial/tutorial"
+          "video": "sequence-analysis/quality-control/slides"
         },
         {
-          "video": "galaxy-interface/workflow-parameters/tutorial"
+          "video": "sequence-analysis/quality-control/tutorial"
+        },
+        {
+          "video": "sequence-analysis/mapping/slides"
+        },
+        {
+          "video": "sequence-analysis/mapping/tutorial"
         }
       ]
     },
@@ -29,13 +47,10 @@
       "description": "Some description about today's content",
       "trainings": [
         {
-          "video": "galaxy-interface/upload-rules"
-        },
-        {
-          "video": "galaxy-interface/workflow-automation"
+          "video": "variant-analysis/sars-cov-2-variant-discovery/tutorial"
         }
       ]
     }
   },
-  "content": "\\nYou can write a bit more about your course here!\n"
+  "content": "\\n## Course Description\n"
 }
