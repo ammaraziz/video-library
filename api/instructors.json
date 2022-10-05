@@ -1,4 +1,11 @@
 {
+  "aaziz": {
+    "name": "Ammar Aziz",
+    "affiliation": [
+      "whocc"
+    ],
+    "photo": "aziz.jpeg"
+  },
   "abretaud": {
     "name": "Anthony Bretaudeau",
     "affiliation": [
