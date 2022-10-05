@@ -1,18 +1,64 @@
 ---
 layout: event
-title: "WHOCC Bioinformatics Training - Cambodia"
-description: ""
-instructors:
- - afgane
+id: camtraining
+title: "WHOCC Bioinformatics Training"
+description: "Cambodia Training"
+certbot: false
+instructors: Ammar Aziz
+institutions: [gtn, gallantries, biocommons, whocc]
 
-program:
+date:
+  start: 2022-10-10
+  end: 2021-10-15
+contacts: Ammar Aziz
+
+practical:  
+  - name: Infustracture
+    text: "[Galacy Australia Training Server]([https://usegalaxy.eu](https://usegalaxy.org.au/join-training/whocc_cambodia))"
+
+setup:
+  servers:
+    - server: au
+      tiaas: whocc_cambodia  # if using TiaaS for this server, put the keyword here
+    - server: au
+
+feedback: 
+  form: "https://feedback.example.com"
+
+## Setup
+
+Please install the following software:
+
+	1. Firefox/Chromeish
+	2. UGENE - http://ugene.net/download-all.html
+	3a. Windows: [Notepad++](https://notepad-plus-plus.org/downloads/) or [Sublime](https://www.sublimetext.com/download/)
+	3b. [Sublime](https://www.sublimetext.com/download)
+ 4. Figtree - https://github.com/rambaut/figtree/releases
+	5. Inkscape - https://inkscape.org/release/inkscape-1.2.1/
+	6. MS office or [LibreOffice](https://www.libreoffice.org/)
+	7. 7zip - https://www.7-zip.org/
+
+We will be using the Australian Galaxy server for all bioinformatics training.
+
+## Day 1 - Monday
+Objectives:
+  - Gain an understanding  of sequencing technology (Sanger, Illumina, ONT)
+  - Overview of Illumina/ONT output file structure
+  - Overview of commonly used file formats (Fasta, Fastq etc)
+  - Recommended best practices
+
   day1:
-    title: "Day 1"
-    description: "Some description about today's content"
+    title: "Overview and theory of NGS technologies"
     trainings:
-      - video: introduction/galaxy-intro-ngs-data-managment
+      - external:
+        title: DNA Sequencing - Definition, Principle, Steps, Types, Uses
+        other:
+          - label: Types of Sequencing
+            link: https://thebiologynotes.com/dna-sequencing-principle-steps-types-uses/
+          - label: Overview of NGS technology
+            link: https://thebiologynotes.com/dna-sequencing-principle-steps-types-uses/
+      - tutorial: introduction/galaxy-intro-ngs-data-managment
       - video: galaxy/intro
-      - video: galaxy/intro2
       - video: sequence-analysis/quality-control/slides
       - video: sequence-analysis/quality-control/tutorial
       - video: sequence-analysis/mapping/slides
@@ -23,5 +69,6 @@ program:
     trainings:
       - video: variant-analysis/sars-cov-2-variant-discovery/tutorial
 ---
+## Course Description
 
-You can write a bit more about your course here!
+
