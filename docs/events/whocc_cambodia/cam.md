@@ -68,7 +68,10 @@ Objectives:
     description: "Some description about today's content"
     trainings:
       - video: variant-analysis/sars-cov-2-variant-discovery/tutorial
----
+
 ## Course Description
+goes here
+---
+
 
 
