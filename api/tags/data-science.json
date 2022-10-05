@@ -1,0 +1,70 @@
+{
+  "url": "/video-library/api/tags/data-science.json",
+  "videos": {
+    "data-science/r-advanced/tutorial": {
+      "description": "An advanced tutorial covering downstream analysis of RNA-seq data using R.",
+      "materials": [
+        {
+          "link": "topics/introduction/tutorials/r-advanced/tutorial.html",
+          "title": "Advanced R in Galaxy",
+          "type": "Tutorial"
+        }
+      ],
+      "tags": [
+        "data-science"
+      ],
+      "type": "Tutorial",
+      "versions": [
+        {
+          "captions": [
+            "ksuderman",
+            "nagoue"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "1H",
+          "link": "_hWBGdlICqg",
+          "speakers": [
+            "fpsom"
+          ]
+        }
+      ],
+      "gtn_id": "data-science/r-advanced",
+      "title": "Advanced R in Galaxy",
+      "captioned": true
+    },
+    "data-science/r-basics/tutorial": {
+      "description": "This tutorial will provide an introduction to using R with Rstudio in Galaxy.",
+      "materials": [
+        {
+          "link": "topics/data-science/tutorials/r-basics/tutorial.html",
+          "title": "R basics in Galaxy",
+          "type": "Tutorial"
+        }
+      ],
+      "tags": [
+        "data-science"
+      ],
+      "type": "Tutorial",
+      "versions": [
+        {
+          "captions": [
+            "s3by01",
+            "annefou",
+            "kxk302"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "50M",
+          "link": "MKkQDh5Nguc",
+          "speakers": [
+            "fpsom"
+          ]
+        }
+      ],
+      "gtn_id": "data-science/r-basics",
+      "title": "R basics in Galaxy",
+      "captioned": true
+    }
+  }
+}

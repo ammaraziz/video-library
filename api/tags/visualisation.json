@@ -1,0 +1,139 @@
+{
+  "url": "/video-library/api/tags/visualisation.json",
+  "videos": {
+    "transcriptomics/rna-seq-viz-with-volcanoplot-r/tutorial": {
+      "description": "The previous tutorial introduced volcano plots and showed how they can be generated with the Galaxy Volcano plot tool. In this tutorial we show how you can customise a plot using the R script output from the tool.",
+      "materials": [
+        {
+          "link": "topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot-r/tutorial.html",
+          "title": "Customizing your Volcano plots using R in Galaxy",
+          "type": "Tutorial"
+        }
+      ],
+      "support_channel": "transcriptomics_rna-seq-viz-with-volcanoplot",
+      "tags": [
+        "transcriptomics",
+        "visualisation"
+      ],
+      "type": "Tutorial",
+      "versions": [
+        {
+          "captions": [
+            "mblue9"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "15M",
+          "link": "4dspgiwkuxk",
+          "speakers": [
+            "mblue9"
+          ]
+        }
+      ],
+      "gtn_id": "transcriptomics/rna-seq-viz-with-volcanoplot-r",
+      "title": "Visualization of RNA-Seq results with Volcano Plot in R",
+      "captioned": true
+    },
+    "transcriptomics/rna-seq-viz-with-volcanoplot/tutorial": {
+      "description": "This tutorial will show you how you can create volcano plots from your RNA-Seq analysis results using Galaxy tools.",
+      "materials": [
+        {
+          "link": "topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot/tutorial.html",
+          "title": "Visualization of RNA-Seq results with Volcano Plot",
+          "type": "Tutorial"
+        }
+      ],
+      "tags": [
+        "transcriptomics",
+        "visualisation"
+      ],
+      "type": "Tutorial",
+      "versions": [
+        {
+          "captions": [
+            "mblue9"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "10M",
+          "link": "uNGXIcEGZwA",
+          "speakers": [
+            "mblue9"
+          ]
+        }
+      ],
+      "gtn_id": "transcriptomics/rna-seq-viz-with-volcanoplot",
+      "title": "Visualization of RNA-Seq results with Volcano Plot",
+      "captioned": true
+    },
+    "visualisation/circos/slides": {
+      "description": "Circos is a popular tool for creating circular graphs to display genomic data. This video will introduce this tool and how to use it within Galaxy",
+      "materials": [
+        {
+          "link": "topics/visualisation/tutorials/circos/slides.html",
+          "type": "Slides"
+        }
+      ],
+      "tags": [
+        "visualisation"
+      ],
+      "type": "Lecture",
+      "versions": [
+        {
+          "captions": [
+            "assuntad23",
+            "shiltemann"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "6M",
+          "link": "KCtI5KLp05k",
+          "speakers": [
+            "hexylena"
+          ]
+        }
+      ],
+      "gtn_id": "visualisation/circos",
+      "title": "Visualisation with Circos",
+      "captioned": true
+    },
+    "visualisation/circos/tutorial": {
+      "description": "Circos is a popular tool for creating circular graphs to display genomic data. This video will introduce this tool and how to use it within Galaxy",
+      "materials": [
+        {
+          "link": "topics/visualisation/tutorials/circos/slides.html",
+          "type": "Slides"
+        },
+        {
+          "link": "topics/visualisation/tutorials/circos/tutorial.html",
+          "title": "Visualisation with Circos",
+          "type": "Tutorial"
+        }
+      ],
+      "tags": [
+        "visualisation"
+      ],
+      "type": "Tutorial",
+      "versions": [
+        {
+          "captions": [
+            "beatrizserrano",
+            "hexylena",
+            "shiltemann",
+            "khanteymoori"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "50M",
+          "link": "tbqeUP67w-Y",
+          "speakers": [
+            "hexylena"
+          ]
+        }
+      ],
+      "gtn_id": "visualisation/circos",
+      "title": "Visualisation with Circos",
+      "captioned": true
+    }
+  }
+}

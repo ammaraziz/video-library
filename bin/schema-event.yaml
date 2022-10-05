@@ -1,0 +1,222 @@
+---
+type: map
+mapping:
+    id:
+        type: str
+        required: true
+
+    layout:
+        type: str
+        required: false
+        enum:
+            - event
+    title:
+        type: str
+        required: true
+    description:
+        type: str
+        required: true
+    instructors:
+        type: seq
+        required: true
+        sequence:
+            - type: str
+              enum: CONTRIBUTORS
+    date:
+        type: map
+        mapping:
+            start:
+                type: date
+                pattern: /^[0-9]{4}-[0-9]{2}-[0-9]{2}$/
+            end:
+                type: date
+                pattern: /^[0-9]{4}-[0-9]{2}-[0-9]{2}$/
+    cost:
+        type: str
+    registration:
+        type: str
+    location:
+        type: str
+    status:
+        type: str
+        enum:
+            - draft
+            - final
+    external:
+        type: map
+        mapping:
+            link:
+                type: str
+    contacts:
+        type: seq
+        sequence:
+            - type: str
+              enum: CONTRIBUTORS
+    example:
+        type: bool
+    format:
+        type: str
+    formatting_lang:
+        type: str
+    support:
+        type: str
+    institutions:
+        type: seq
+        sequence:
+            - type: str
+    audience:
+        type: str
+    practical:
+        type: seq
+        sequence:
+            - type: map
+              mapping:
+                name:
+                    type: str
+                text:
+                    type: str
+    certificates:
+        type: map
+        mapping:
+            certbot:
+                type: bool
+            certbot_admin:
+                type: bool
+            request_form:
+                type: str
+            deadline:
+                type: date
+            notes:
+                type: map
+                mapping:
+                    snippet:
+                        type: str
+
+    feedback:
+        type: map
+        mapping:
+            form:
+                type: str
+            slack_channel:
+                type: str
+    setup:
+        type: map
+        mapping:
+            slack:
+                type: map
+                mapping:
+                    event_channel:
+                        type: map
+                        mapping:
+                            name:
+                                type: str
+                            link:
+                                type: str
+                            useforall:
+                                type: bool
+            servers:
+                type: seq
+                sequence:
+                    - type: map
+                      mapping:
+                          server:
+                              type: str
+                              enum:
+                                  - eu
+                                  - au
+                                  - us
+                                  - be
+                                  - fr
+                          tiaas:
+                              type: str
+                          disabled:
+                              type: bool
+                          custom:
+                              type: map
+                              mapping:
+                                  name:
+                                      type: str
+                                  url:
+                                      type: str
+    program:
+        type: map
+        mapping:
+            "=":
+                type: map
+                mapping:
+                    title:
+                        type: str
+                        required: true
+                    description:
+                        type: str
+                        required: false
+                    trainings:
+                        type: seq
+                        sequence:
+                            - type: map
+                              mapping:
+                                  basics:
+                                      type: str
+                                      enum:
+                                        - setup
+                                        - setup-gat
+                                        - code-of-conduct
+                                        - certificates
+                                        - feedback
+                                        - logistics
+                                  video:
+                                      type: str
+                                      enum: VIDEOS
+                                  session:
+                                      type: str
+                                      enum: SESSIONS
+                                  icebreaker:
+                                      type: seq
+                                      sequence:
+                                      - type: map
+                                        mapping:
+                                          title: {type: str}
+                                          channel: {type: str}
+                                          certificate: {type: bool}
+                                          prompt: {type: str}
+                                  instructors:
+                                      type: seq
+                                      sequence:
+                                          - type: str
+                                            enum: CONTRIBUTORS
+                                  self-study:
+                                      type: str
+                                  support_channel:
+                                      type: str
+                                  description:
+                                      type: str
+                                  prefix:
+                                      type: str
+                                  external:
+                                      # These are basically unchecked.
+                                      type: map
+                                      mapping:
+                                            name: {type: str}
+                                            title: {type: str}
+                                            video: {type: str}
+                                            description: {type: str}
+                                            length: {type: str}
+                                            slides: {type: str}
+                                            tutorial: {type: str}
+                                            author:
+                                                type: seq
+                                                sequence:
+                                                - type: str
+                                            other:
+                                                type: seq
+                                                sequence:
+                                                - type: map
+                                                  mapping:
+                                                    label: {type: str}
+                                                    value: {type: str}
+                                                    link: {type: str}
+                                  type:
+                                      type: seq
+                                      sequence:
+                                        - type: str
+                                          enum: [ slides, tutorial]

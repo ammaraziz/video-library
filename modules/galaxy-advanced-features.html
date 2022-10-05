@@ -1,0 +1,1457 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  
+  <title>Advanced Galaxy Features</title>
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head profile="http://www.w3.org/2005/10/profile">
+  <link href="/video-library/assets/bootstrap-5.0.0-beta1.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="icon" type="image/png" href="/video-library/assets/images/favicon.png" />
+  <script src="/video-library/assets/js/bootstrap-5.0.0-beta1.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <script async defer data-domain="gallantries.github.io" src="https://plausible.galaxyproject.eu/js/plausible.js"></script>
+  <script src="/video-library/assets/js/lazysizes-5.2.2.min.js" async></script>
+  <!--
+	  we've replaced with the individual icons because we don't need that many icons.
+  <script src="https://kit.fontawesome.com/67b3f98409.js" crossorigin="anonymous"></script>
+  -->
+  <link rel="stylesheet" href="/video-library/assets/main.css">
+
+  <!-- updates for previews on social media etc -->
+  <meta name="description" content="Extend your knowledge of the Galaxy! Below is a selection of the [Using Galaxy and Managing your Data](https://training.galaxyproject.org/training-material/topics/galaxy-interface/)
+topic, which contains a large number of short tutorials focusing on a specific feature of Galaxy.
+" />
+  <meta property="og:title" content="Advanced Galaxy Features" />
+  <meta property="og:description" content="Extend your knowledge of the Galaxy! Below is a selection of the [Using Galaxy and Managing your Data](https://training.galaxyproject.org/training-material/topics/galaxy-interface/)
+topic, which contains a large number of short tutorials focusing on a specific feature of Galaxy.
+" />
+  <meta property="og:image" content="/video-library/assets/images/video_cover.png" />
+
+</head>
+<body>
+	<a class="visually-hidden visually-hidden-focusable" href="#content">Skip to main content</a><nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid" style="width: calc(1000px - (30px * 2)); padding-left:30px">
+    <a class="navbar-brand"
+        
+             href="/video-library/">GTN Video Library
+        
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <!--
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/">Home</a>
+        </li>
+        -->
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/events">Events</a>
+        </li>
+         <li class="nav-item">
+			<a class="nav-link" href="/video-library/modules">Training Modules</a>
+        </li>
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/library">Videos</a>
+        </li>
+        <!--
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/session-library">Sessions</a>
+        </li>
+        -->
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/course-builder">Course Builder</a>
+        </li>
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/instructors">Instructor Guide</a>
+        </li>
+
+        <li class="nav-item">
+			<a class="nav-link" href="https://github.com/gallantries/video-library" title="Github Repository"><img style="height: 1em" src="/video-library/assets/fa/github.svg" alt="assets/fa/github.svg" aria-hidden="true"/></a>
+        </li>
+
+	    <!-- Want to add more pages to the top menu bar? add them here.
+        <li class="nav-item">
+           <a class="nav-link " href="for-instructors.html">Instructors</a>
+        </li>
+        -->
+        <!--
+        <li class="nav-item">
+          <a class="nav-link " href="recording.html">recording</a>
+        </li>
+      -->
+      </ul>
+    </div>
+  </div>
+</nav>
+<main class="page-content" aria-label="Content" id="content">
+      <div class="wrapper" >
+        
+
+<h1>Module: Advanced Galaxy Features </h1>
+
+<p>Extend your knowledge of the Galaxy! Below is a selection of the <a href="https://training.galaxyproject.org/training-material/topics/galaxy-interface/">Using Galaxy and Managing your Data</a>
+topic, which contains a large number of short tutorials focusing on a specific feature of Galaxy.</p>
+
+
+<p>
+
+
+</p>
+
+
+<!-- This will generate the course handbook; the collapsible sections with videos and all others resources for the training -->
+
+
+
+
+  
+  
+  
+  <h3 class="module-start"> Data </h3>
+  
+  <p class="module-description"> 
+ </p>
+  <div class="accordion" id="accordionintro">
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingintro0">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseintro0" aria-expanded="false" aria-controls="collapseintro0">
+        Rule Based Uploader
+        
+   </button>
+  </div>
+
+  <div id="collapseintro0" class="accordion-collapse collapse " aria-labelledby="headingintro0" data-bs-parent="#accordionintro">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>"Through a series of examples, this tutorial aims to familiarize the reader with building Galaxy collections from tabular data containing URLs, sample sheets, list of accessions or identifiers, etc..", "materials"=>[{"link"=>"topics/galaxy-interface/tutorials/upload-rules/tutorial.html", "type"=>"Tutorial"}, {"link"=>"topics/galaxy-interface/tutorials/upload-rules-advanced/tutorial.html", "type"=>"Tutorial"}], "tags"=>["galaxy-interface"], "type"=>"Tutorial", "versions"=>[{"captions"=>["assuntad23"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"22M", "link"=>"1MWHVRWXpyA", "speakers"=>["assuntad23"], "name"=>"Rule Based Uploader"}], "gtn_id"=>"galaxy-interface/upload-rules", "title"=>"Rule Based Uploader", "captioned"=>true, "name"=>"Rule Based Uploader"}<br><br> video: {"captions"=>["assuntad23"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"22M", "link"=>"1MWHVRWXpyA", "speakers"=>["assuntad23"], "name"=>"Rule Based Uploader"} -->
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Tutorial Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/1MWHVRWXpyA"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>Through a series of examples, this tutorial aims to familiarize the reader with building Galaxy collections from tabular data containing URLs, sample sheets, list of accessions or identifiers, etc..</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>22 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/assuntad23/">Assunta DeSanto</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>15 February 2021</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                                
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                            
+                        
+
+
+                        
+                        
+                        Tutorial:
+
+                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/galaxy-interface/tutorials/upload-rules/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+			<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+			
+                        |
+                        <a href="https://training.galaxyproject.org/topics/galaxy-interface/tutorials/upload-rules/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+			
+
+                        
+                        <br>
+                        <img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true"/>
+                        
+                        <a href="https://training.galaxyproject.org/topics/galaxy-interface/tutorials/upload-rules/faqs/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
+                        
+                        
+                    </li>
+                
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                            
+                        
+
+
+                        
+                        
+                        Tutorial:
+
+                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/galaxy-interface/tutorials/upload-rules-advanced/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+			<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+			
+                        |
+                        <a href="https://training.galaxyproject.org/topics/galaxy-interface/tutorials/upload-rules-advanced/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+			
+
+                        
+                        <br>
+                        <img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true"/>
+                        
+                        <a href="https://training.galaxyproject.org/topics/galaxy-interface/tutorials/upload-rules-advanced/faqs/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
+                        
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/galaxy-interface_upload-rules">#galaxy-interface_upload-rules</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/galaxy-interface_upload-rules">#galaxy-interface_upload-rules</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/galaxy-interface/upload-rules">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="assuntad23">
+			
+			<a href="/video-library/contributors/assuntad23/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/assuntad23" alt="">
+            
+			<div class="name">
+				<b>Assunta DeSanto</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://www.psu.edu/">
+					Penn State University
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingintro1">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseintro1" aria-expanded="false" aria-controls="collapseintro1">
+        Using dataset collections
+        
+   </button>
+  </div>
+
+  <div id="collapseintro1" class="accordion-collapse collapse " aria-labelledby="headingintro1" data-bs-parent="#accordionintro">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>nil, "materials"=>[{"link"=>"topics/galaxy-interface/tutorials/collections/tutorial.html", "title"=>"Using dataset collections", "type"=>"Tutorial"}], "tags"=>["galaxy-interface"], "type"=>"Tutorial", "versions"=>[{"captions"=>["annefou", "mariipia10"], "date"=>"2021-08-09", "length"=>"11M", "link"=>"uZUt9XIHUQo", "speakers"=>["nekrut"], "name"=>"Using dataset collections"}], "gtn_id"=>"galaxy-interface/collections", "title"=>"Using dataset collections", "captioned"=>true, "name"=>"Using dataset collections"}<br><br> video: {"captions"=>["annefou", "mariipia10"], "date"=>"2021-08-09", "length"=>"11M", "link"=>"uZUt9XIHUQo", "speakers"=>["nekrut"], "name"=>"Using dataset collections"} -->
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Tutorial Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/uZUt9XIHUQo"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>11 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/annefou/">Anne Fouilloux</a>,  <a href="/video-library/contributors/mariipia10/">Pia H.</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>9 August 2021</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                                
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                            
+                        
+
+
+                        
+                        
+                        Tutorial:
+
+                        <a href="https://training.galaxyproject.org/archive/2021-09-01/topics/galaxy-interface/tutorials/collections/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+			<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+			
+                        |
+                        <a href="https://training.galaxyproject.org/topics/galaxy-interface/tutorials/collections/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+			
+
+                        
+                        <br>
+                        <img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true"/>
+                        
+                        <a href="https://training.galaxyproject.org/topics/galaxy-interface/tutorials/collections/faqs/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
+                        
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/galaxy-interface_collections">#galaxy-interface_collections</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      
+                      <li>Understand and master dataset collections</li>
+                      
+                  </ul>
+              </td>
+          </tr>
+          
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/galaxy-interface_collections">#galaxy-interface_collections</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/galaxy-interface/collections/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="nekrut">
+			
+			<a href="/video-library/contributors/nekrut/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/nekrut" alt="">
+            
+			<div class="name">
+				<b>Anton Nekrutenko</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://www.psu.edu/">
+					Penn State University
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+  </div>
+
+  
+  
+  
+  <h3 class="module-start"> Workflows </h3>
+  
+  <p class="module-description"> 
+ </p>
+  <div class="accordion" id="accordionworkflows">
+  
+     
+
+     
+       
+       <div class="accordion-item">
+ 
+ <div class="accordion-header" id="headingworkflows0">
+  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseworkflows0" aria-expanded="false" aria-controls="collapseworkflows0">  Creating, Editing and Importing Galaxy Workflows
+  </button>
+ </div>
+
+ <div id="collapseworkflows0" class="accordion-collapse collapse " aria-labelledby="headingworkflows0" data-bs-parent="#accordionworkflows">
+
+  <div class="accordion-body">
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+<h3 class="session-section">Self-study Tutorial</h3>
+
+This is a self-study session. Please work through the materials on your own, and ask the instructors for help if you get stuck or have any questions!
+
+<div class="col-md-8">
+  <img src="/video-library/assets/images/selfstudy.png" alt="image indicating this is a self-study session."/>
+</div>
+
+<div style="margin-top:1em;" class="video-metadata">
+ <table>
+  <tr>
+   <td><strong>Tutorial:</strong></td>
+   <td>Creating, Editing and Importing Galaxy Workflows</td>
+  </tr>
+  
+  <tr>
+   <td><strong>Material:</strong></td>
+   
+   <td>
+    
+    
+    <a href="https://training.galaxyproject.org/topics/galaxy-interface/tutorials/workflow-editor/tutorial.html"><img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/> GTN Tutorial</a>
+    
+    </td>
+ </tr>
+
+ <tr>
+  <td><strong>Support:</strong></td>
+  <td>
+   <ul>
+     
+
+     <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/#general">##general</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+     <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+     <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+    </ul>
+   </td>
+ </tr>
+ </table>
+</div>
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  </div>
+ </div>
+</div> <!-- end session -->
+
+
+     
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingworkflows1">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseworkflows1" aria-expanded="false" aria-controls="collapseworkflows1">
+        Using Workflow Parameters
+        
+   </button>
+  </div>
+
+  <div id="collapseworkflows1" class="accordion-collapse collapse " aria-labelledby="headingworkflows1" data-bs-parent="#accordionworkflows">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>"To make a workflow reusable with slightly different settings you can define and use workflow parameters.", "materials"=>[{"link"=>"topics/galaxy-interface/tutorials/workflow-parameters/tutorial.html", "title"=>"Workflow Parameters", "type"=>"Tutorial"}], "tags"=>["galaxy-interface"], "type"=>"Tutorial", "versions"=>[{"link"=>"otvEuDlCye0", "captions"=>["mvdbeek"], "date"=>"2022-07-06", "length"=>"30M", "speakers"=>["mvdbeek"], "name"=>"Using Workflow Parameters"}], "gtn_id"=>"galaxy-interface/workflow-parameters", "title"=>"Using Workflow Parameters", "captioned"=>true, "name"=>"Using Workflow Parameters"}<br><br> video: {"link"=>"otvEuDlCye0", "captions"=>["mvdbeek"], "date"=>"2022-07-06", "length"=>"30M", "speakers"=>["mvdbeek"], "name"=>"Using Workflow Parameters"} -->
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Tutorial Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/otvEuDlCye0"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>To make a workflow reusable with slightly different settings you can define and use workflow parameters.</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>30 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/mvdbeek/">Marius van den Beek</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>6 July 2022</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                                
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                            
+                        
+
+
+                        
+                        
+                        Tutorial:
+
+                        <a href="https://training.galaxyproject.org/archive/2022-08-01/topics/galaxy-interface/tutorials/workflow-parameters/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+			<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+			
+                        |
+                        <a href="https://training.galaxyproject.org/topics/galaxy-interface/tutorials/workflow-parameters/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+			
+
+                        
+                        <br>
+                        <img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true"/>
+                        
+                        <a href="https://training.galaxyproject.org/topics/galaxy-interface/tutorials/workflow-parameters/faqs/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
+                        
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/galaxy-interface_workflow-parameters">#galaxy-interface_workflow-parameters</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      
+                      <li>Learn how to use Workflow Parameters to improve your Workflows</li>
+                      
+                  </ul>
+              </td>
+          </tr>
+          
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/galaxy-interface_workflow-parameters">#galaxy-interface_workflow-parameters</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/galaxy-interface/workflow-parameters/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="mvdbeek">
+			
+			<a href="/video-library/contributors/mvdbeek/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/mvdbeek" alt="">
+            
+			<div class="name">
+				<b>Marius van den Beek</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://www.psu.edu/">
+					Penn State University
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingworkflows2">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseworkflows2" aria-expanded="false" aria-controls="collapseworkflows2">
+        Workflow Reports
+        
+   </button>
+  </div>
+
+  <div id="collapseworkflows2" class="accordion-collapse collapse " aria-labelledby="headingworkflows2" data-bs-parent="#accordionworkflows">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>"Learn how to view, customize and share Galaxy workflow reports", "materials"=>[{"link"=>"topics/galaxy-interface/tutorials/workflow-reports/tutorial.html", "title"=>"Workflow Reports", "type"=>"Tutorial"}], "tags"=>["galaxy-interface"], "type"=>"Tutorial", "versions"=>[{"link"=>"hrZhpsiGaPM", "captions"=>["shiltemann"], "date"=>"2022-07-06", "length"=>"30M", "speakers"=>["shiltemann"], "name"=>"Workflow Reports"}], "gtn_id"=>"galaxy-interface/workflow-reports", "title"=>"Workflow Reports", "captioned"=>true, "name"=>"Workflow Reports"}<br><br> video: {"link"=>"hrZhpsiGaPM", "captions"=>["shiltemann"], "date"=>"2022-07-06", "length"=>"30M", "speakers"=>["shiltemann"], "name"=>"Workflow Reports"} -->
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Tutorial Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/hrZhpsiGaPM"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>Learn how to view, customize and share Galaxy workflow reports</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>30 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/shiltemann/">Saskia Hiltemann</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>6 July 2022</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                                
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                            
+                        
+
+
+                        
+                        
+                        Tutorial:
+
+                        <a href="https://training.galaxyproject.org/archive/2022-08-01/topics/galaxy-interface/tutorials/workflow-reports/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+			<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+			
+                        |
+                        <a href="https://training.galaxyproject.org/topics/galaxy-interface/tutorials/workflow-reports/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+			
+
+                        
+                        <br>
+                        <img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true"/>
+                        
+                        <a href="https://training.galaxyproject.org/topics/galaxy-interface/tutorials/workflow-reports/faqs/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
+                        
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/galaxy-interface_workflow-reports">#galaxy-interface_workflow-reports</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      
+                      <li>Understanding, viewing and creating workflow reports</li>
+                      
+                  </ul>
+              </td>
+          </tr>
+          
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/galaxy-interface_workflow-reports">#galaxy-interface_workflow-reports</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/galaxy-interface/workflow-reports/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="shiltemann">
+			
+			<a href="/video-library/contributors/shiltemann/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/shiltemann" alt="">
+            
+			<div class="name">
+				<b>Saskia Hiltemann</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://erasmusmc.nl">
+					Erasmus Medical Center
+				</a> & 
+				
+				<a href="https://gallantries.github.io">
+					The Gallantries Project
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+  </div>
+
+  
+  
+  
+  <h3 class="module-start"> Analysis </h3>
+  
+  <p class="module-description"> 
+ </p>
+  <div class="accordion" id="accordionanalysis">
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headinganalysis0">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseanalysis0" aria-expanded="false" aria-controls="collapseanalysis0">
+        Interactive Tools
+        
+   </button>
+  </div>
+
+  <div id="collapseanalysis0" class="accordion-collapse collapse " aria-labelledby="headinganalysis0" data-bs-parent="#accordionanalysis">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"title"=>"Interactive Tools", "description"=>"This demo videos shows you how you can run Interactive tools such as RStudio and Jupyter notebooks within Galaxy.", "tags"=>["galaxy-intro", "galaxy"], "versions"=>[{"link"=>"21Eo3QlKuoA", "captions"=>["shiltemann"], "date"=>"2022-07-07", "length"=>"15M", "speakers"=>["hexylena"], "name"=>"galaxy-interface/interactive-tools"}], "type"=>"Demo", "gtn_id"=>"galaxy-interface/interactive-tools", "captioned"=>true, "name"=>"galaxy-interface/interactive-tools"}<br><br> video: {"link"=>"21Eo3QlKuoA", "captions"=>["shiltemann"], "date"=>"2022-07-07", "length"=>"15M", "speakers"=>["hexylena"], "name"=>"galaxy-interface/interactive-tools"} -->
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Demo Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/21Eo3QlKuoA"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>This demo videos shows you how you can run Interactive tools such as RStudio and Jupyter notebooks within Galaxy.</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>15 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/shiltemann/">Saskia Hiltemann</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>7 July 2022</td>
+          </tr>
+          
+          
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/galaxy-interface_interactive-tools">#galaxy-interface_interactive-tools</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <!--
+          
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/galaxy-interface/interactive-tools">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="hexylena">
+			
+			<a href="/video-library/contributors/hexylena/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/hexylena" alt="">
+            
+			<div class="name">
+				<b>Helena Rasche</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://erasmusmc.nl">
+					Erasmus Medical Center
+				</a> & 
+				
+				<a href="https://avans.nl">
+					Avans Hogeschool
+				</a> & 
+				
+				<a href="https://gallantries.github.io">
+					The Gallantries Project
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+  </div>
+
+
+
+
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/video-library/"></data>
+
+  <div class="wrapper">
+
+    <div class="row">
+        <div class="col-md-4">
+            <h2 class="footer-heading">
+             <img src="/video-library/assets/images/logos/gallantries.png" alt="Logo for the Gallantries project"  width="30em"/>
+             GTN Video Library
+            </h2>
+        </div>
+        <div class="col-md-4">
+          <p>Everyone participating is expected to abide by the <a href="https://galaxyproject.org/community/coc/">Code of Conduct</a></p>
+        </div>
+        <div class="col-md-4">
+            <img src="/video-library/assets/images/logos/erasmusplus.jpg" alt="european flag with text: With the support of the Erasmus+ Programme of the European Union."/>
+                    </div>
+    </div>
+	This project (<a href="https://ec.europa.eu/programmes/erasmus-plus/projects/eplus-project-details/#project/2020-1-NL01-KA203-064717">2020-1-NL01-KA203-064717</a>) is funded with the support of the Erasmus+ programme of the European Union.
+
+  </div>
+
+</footer>
+</body>
+
+
+</html>

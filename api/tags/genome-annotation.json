@@ -1,0 +1,218 @@
+{
+  "url": "/video-library/api/tags/genome-annotation.json",
+  "videos": {
+    "genome-annotation/annotation-with-prokka/slides": {
+      "description": "Genome annotation is a multi-level process that includes prediction of protein-coding genes, as well as other functional genome units such as structural RNAs, tRNAs, small RNAs, pseudogenes, control regions, direct and inverted repeats, insertion sequences, transposons and other mobile elements.",
+      "materials": [
+        {
+          "link": "topics/genome-annotation/tutorials/annotation-with-prokka/slides.html",
+          "type": "Slides"
+        }
+      ],
+      "tags": [
+        "genome-annotation"
+      ],
+      "type": "Lecture",
+      "versions": [
+        {
+          "captions": [
+            "abretaud"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "3M",
+          "link": "eqHy-Cc7k4Q",
+          "speakers": [
+            "awspolly"
+          ]
+        }
+      ],
+      "gtn_id": "genome-annotation/annotation-with-prokka",
+      "title": "Genome annotation with Prokka",
+      "captioned": true
+    },
+    "genome-annotation/annotation-with-prokka/tutorial": {
+      "description": "In this tutorial we will use Prokka to annotate a draft genome sequence. Prokka finds and annotates features (both protein coding regions and RNA genes, i.e. tRNA, rRNA) present on on a sequence. Prokka can be used to annotate bacterial, archaeal and viral genomes quickly, generating standard output files in GenBank, EMBL and gff formats.\"",
+      "materials": [
+        {
+          "link": "topics/genome-annotation/tutorials/annotation-with-prokka/tutorial.html",
+          "type": "Tutorial"
+        }
+      ],
+      "tags": [
+        "genome-annotation"
+      ],
+      "type": "Tutorial",
+      "versions": [
+        {
+          "captions": [
+            "abretaud"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "20M",
+          "link": "B8pIQZPf21Y",
+          "speakers": [
+            "abretaud"
+          ]
+        }
+      ],
+      "gtn_id": "genome-annotation/annotation-with-prokka",
+      "title": "Genome annotation with Prokka",
+      "captioned": true
+    },
+    "genome-annotation/apollo/slides": {
+      "description": "This lecture gives a quick overview of Apollo",
+      "materials": [
+        {
+          "link": "topics/genome-annotation/tutorials/apollo/slides.html",
+          "type": "Slides"
+        }
+      ],
+      "tags": [
+        "genome-annotation"
+      ],
+      "type": "Lecture",
+      "versions": [
+        {
+          "captions": [
+            "abretaud"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "5M",
+          "link": "ailUycRVHtE",
+          "speakers": [
+            "awspolly"
+          ]
+        }
+      ],
+      "gtn_id": "genome-annotation/apollo",
+      "title": "Refining Genome Annotations with Apollo",
+      "captioned": true
+    },
+    "genome-annotation/apollo/tutorial": {
+      "description": "In this tutorial you will get some hands-on experience using Apollo in Galaxy",
+      "materials": [
+        {
+          "link": "topics/genome-annotation/tutorials/apollo/tutorial.html",
+          "type": "Tutorial"
+        },
+        {
+          "link": "https://genomearchitect.readthedocs.io/en/latest/UsersGuide.html",
+          "type": "Apollo User's Guide"
+        }
+      ],
+      "tags": [
+        "genome-annotation"
+      ],
+      "type": "Tutorial",
+      "versions": [
+        {
+          "captions": [
+            "abretaud"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "1H",
+          "link": "ywK1fhM-QFU",
+          "speakers": [
+            "abretaud"
+          ]
+        }
+      ],
+      "gtn_id": "genome-annotation/apollo",
+      "title": "Refining Genome Annotations with Apollo",
+      "captioned": true
+    },
+    "genome-annotation/repeatmasker/tutorial": {
+      "description": "The aim of repeat masking is to identify the location of all repeated elements along a genome sequence. Other tools (like annotation pipelines) can then take this information into account when producing their results.\n",
+      "materials": [
+        {
+          "link": "topics/genome-annotation/tutorials/repeatmasker/tutorial.html",
+          "type": "Tutorial"
+        }
+      ],
+      "tags": [
+        "genome-annotation"
+      ],
+      "type": "Tutorial",
+      "versions": [
+        {
+          "captions": [
+            "abretaud"
+          ],
+          "date": "2022-03-03",
+          "galaxy_version": "21.09",
+          "length": "16M",
+          "link": "AYAvjwm4cnM",
+          "speakers": [
+            "abretaud"
+          ]
+        }
+      ],
+      "gtn_id": "genome-annotation/repeatmasker",
+      "title": "Masking repeats with RepeatMasker",
+      "captioned": true
+    },
+    "genome-annotation/funannotate/tutorial": {
+      "description": "Genome annotation of eukaryotes is a little more complicated than for prokaryotes: eukaryotic genomes are usually larger than prokaryotes, with more genes. The sequences determining the beginning and the end of a gene are generally less conserved than the prokaryotic ones. Many genes also contain introns, and the limits of these introns (acceptor and donor sites) are not highly conserved.\n\nIn this tutorial we will use a software tool called Funannotate (Palmer and Stajich 2020) to annotate the genome sequence of a small eukaryote: Mucor mucedo (a fungal plant pathogen).\n",
+      "materials": [
+        {
+          "link": "topics/genome-annotation/tutorials/funannotate/tutorial.html",
+          "type": "Tutorial"
+        }
+      ],
+      "tags": [
+        "genome-annotation"
+      ],
+      "type": "Tutorial",
+      "versions": [
+        {
+          "captions": [
+            "abretaud"
+          ],
+          "date": "2022-03-03",
+          "galaxy_version": "21.09",
+          "length": "1H10M",
+          "link": "r-wU6BhqIpk",
+          "speakers": [
+            "abretaud"
+          ]
+        }
+      ],
+      "gtn_id": "genome-annotation/funannotate",
+      "title": "Genome annotation with Funannotate",
+      "captioned": true
+    },
+    "genome-annotation/tnseq-lecture": {
+      "title": "Essential genes detection with Transposon insertion sequencing (Lecture)",
+      "description": "This lecture talks about the basics of TnSeq analysis\n",
+      "materials": [
+        {
+          "external": true,
+          "link": "https://www.dropbox.com/sh/ayix345v11n69es/AABJerasUhiD4JfSgS3g0kS7a?dl=0&preview=TnSeq-GTapas-2022.pdf",
+          "type": "Non-GTN Lecture"
+        }
+      ],
+      "tags": [
+        "genome-annotation"
+      ],
+      "type": "Lecture",
+      "versions": [
+        {
+          "captions": null,
+          "date": "2022-03-10",
+          "galaxy_version": "21.09",
+          "length": "10M",
+          "link": "ehqObidPhcE",
+          "speakers": [
+            "delphine-l"
+          ]
+        }
+      ],
+      "gtn_id": "genome-annotation/tnseq-lecture",
+      "captioned": false
+    }
+  }
+}

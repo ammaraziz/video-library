@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  
+  <title>We need you for Workflows</title>
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head profile="http://www.w3.org/2005/10/profile">
+  <link href="/video-library/assets/bootstrap-5.0.0-beta1.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="icon" type="image/png" href="/video-library/assets/images/favicon.png" />
+  <script src="/video-library/assets/js/bootstrap-5.0.0-beta1.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <script async defer data-domain="gallantries.github.io" src="https://plausible.galaxyproject.eu/js/plausible.js"></script>
+  <script src="/video-library/assets/js/lazysizes-5.2.2.min.js" async></script>
+  <!--
+	  we've replaced with the individual icons because we don't need that many icons.
+  <script src="https://kit.fontawesome.com/67b3f98409.js" crossorigin="anonymous"></script>
+  -->
+  <link rel="stylesheet" href="/video-library/assets/main.css">
+
+  <!-- updates for previews on social media etc -->
+  <meta name="description" content="" />
+  <meta property="og:title" content="We need you for Workflows" />
+  <meta property="og:description" content="" />
+  <meta property="og:image" content="/video-library/assets/images/video_cover.png" />
+
+</head>
+<body>
+	<a class="visually-hidden visually-hidden-focusable" href="#content">Skip to main content</a><nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid" style="width: calc(1000px - (30px * 2)); padding-left:30px">
+    <a class="navbar-brand"
+        
+             href="/video-library/">GTN Video Library
+        
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <!--
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/">Home</a>
+        </li>
+        -->
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/events">Events</a>
+        </li>
+         <li class="nav-item">
+			<a class="nav-link" href="/video-library/modules">Training Modules</a>
+        </li>
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/library">Videos</a>
+        </li>
+        <!--
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/session-library">Sessions</a>
+        </li>
+        -->
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/course-builder">Course Builder</a>
+        </li>
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/instructors">Instructor Guide</a>
+        </li>
+
+        <li class="nav-item">
+			<a class="nav-link" href="https://github.com/gallantries/video-library" title="Github Repository"><img style="height: 1em" src="/video-library/assets/fa/github.svg" alt="assets/fa/github.svg" aria-hidden="true"/></a>
+        </li>
+
+	    <!-- Want to add more pages to the top menu bar? add them here.
+        <li class="nav-item">
+           <a class="nav-link " href="for-instructors.html">Instructors</a>
+        </li>
+        -->
+        <!--
+        <li class="nav-item">
+          <a class="nav-link " href="recording.html">recording</a>
+        </li>
+      -->
+      </ul>
+    </div>
+  </div>
+</nav>
+<main class="page-content" aria-label="Content" id="content">
+      <div class="wrapper" >
+        <p>Our big new focus for this year, since we have such a huge library of fantastic content, will be to add workflows and test cases for these workflows. Workflows let us be sure that:</p>
+
+<ul>
+  <li>The tools are installed</li>
+  <li>They work on each specific server (and we can report problems when they exist!)</li>
+  <li>They get the right result at the end (reproducible!)</li>
+</ul>
+
+<p>This is the planned timeline for adding and updating workflows for GTN Tapas.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Time Left</th>
+      <th>What’s happening</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>17 February</td>
+      <td>4 weeks</td>
+      <td>GTN CoFest! Here we will help you create workflows + workflow tests for your tutorials.</td>
+    </tr>
+    <tr>
+      <td>28 February</td>
+      <td>2 weeks</td>
+      <td><strong>Workflows Must be done</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="workflow">Workflow</h2>
+
+<ol>
+  <li><a href="https://docs.google.com/document/d/1oobKOsr-P5kludyWxiuNYmHbPTuuMdXbJj4oZUdezss/edit#">Find a video/material that’s being taught</a></li>
+  <li>Check if it has a workflow (if it does, skip to step 5.)</li>
+  <li>Follow the tutorial</li>
+  <li>Build a workflow</li>
+  <li>Run that workflow in a new history to test</li>
+  <li>
+    <p>Obtain the workflow invocation ID, and your API key (User → Preferences → Manage API Key)</p>
+
+    <p><img src="./invocation.png" alt="screenshot of the workflow invocation page. The user drop down shows where to find this page, and a red box circles a field named &quot;Invocation ID&quot;" /></p>
+  </li>
+  <li>
+    <p>Install the latest version of <code class="language-plaintext highlighter-rouge">planemo</code></p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># In a virtualenv
+pip install git+https://github.com/galaxyproject/planemo
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Run the command to initialise a workflow test</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>planemo workflow_test_init --from_invocation &lt;INVOCATION ID&gt; --galaxy_url &lt;GALAXY SERVER URL&gt; --galaxy_user_key" &lt;GALAXY API KEY&gt;
+</code></pre></div>    </div>
+
+    <p>This will produce a folder of files, for example from a testing workflow:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ tree
+.
+├── test-data
+│   ├── input dataset(s).shapefile.shp
+│   └── shapefile.shp
+├── testing-openlayer.ga
+└── testing-openlayer-tests.yml
+</code></pre></div>    </div>
+  </li>
+  <li>Contribute those files to the GTN in a PR.</li>
+</ol>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/video-library/"></data>
+
+  <div class="wrapper">
+
+    <div class="row">
+        <div class="col-md-4">
+            <h2 class="footer-heading">
+             <img src="/video-library/assets/images/logos/gallantries.png" alt="Logo for the Gallantries project"  width="30em"/>
+             GTN Video Library
+            </h2>
+        </div>
+        <div class="col-md-4">
+          <p>Everyone participating is expected to abide by the <a href="https://galaxyproject.org/community/coc/">Code of Conduct</a></p>
+        </div>
+        <div class="col-md-4">
+            <img src="/video-library/assets/images/logos/erasmusplus.jpg" alt="european flag with text: With the support of the Erasmus+ Programme of the European Union."/>
+                    </div>
+    </div>
+	This project (<a href="https://ec.europa.eu/programmes/erasmus-plus/projects/eplus-project-details/#project/2020-1-NL01-KA203-064717">2020-1-NL01-KA203-064717</a>) is funded with the support of the Erasmus+ programme of the European Union.
+
+  </div>
+
+</footer>
+</body>
+
+
+</html>

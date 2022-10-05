@@ -1,0 +1,69 @@
+{
+  "url": "/video-library/api/tags/introduction.json",
+  "videos": {
+    "introduction/galaxy-intro-101/tutorial": {
+      "description": "This tutorial will introduce you to Galaxy. You will familiarize yourself with tools, workflows and histories. Those skills will be needed the next days",
+      "materials": [
+        {
+          "link": "topics/introduction/tutorials/galaxy-intro-101/tutorial.html",
+          "type": "Tutorial"
+        },
+        {
+          "link": "https://usegalaxy.eu/u/wolfgang-maier/h/galaxy-101",
+          "type": "History on GalaxyEU"
+        }
+      ],
+      "tags": [
+        "introduction"
+      ],
+      "type": "Tutorial",
+      "versions": [
+        {
+          "captions": [
+            "shiltemann"
+          ],
+          "date": "2021-07-21",
+          "length": "13M",
+          "link": "D5HgJWdfOWw",
+          "speakers": [
+            "nekrut"
+          ]
+        }
+      ],
+      "gtn_id": "introduction/galaxy-intro-101",
+      "title": "Galaxy 101",
+      "captioned": true
+    },
+    "introduction/galaxy-intro-ngs-data-managment": {
+      "description": "In this demo video, we will show how to perform an NGS data analysis, using a SARS-CoV-2 example dataset. If you would like to run the full tutorial yourself, please find the link below (duration 1h-1.5h).",
+      "materials": [
+        {
+          "link": "topics/introduction/tutorials/galaxy-intro-ngs-data-managment/tutorial.html",
+          "title": "NGS data logistics",
+          "type": "Tutorial"
+        }
+      ],
+      "tags": [
+        "introduction"
+      ],
+      "type": "Demo",
+      "versions": [
+        {
+          "captions": [
+            "nekrut"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "15M",
+          "link": "9mIL0tIfZ_o",
+          "speakers": [
+            "nekrut"
+          ]
+        }
+      ],
+      "gtn_id": "introduction/galaxy-intro-ngs-data-managment",
+      "title": "NGS data logistics",
+      "captioned": true
+    }
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "url": "/video-library/api/tags/sequence-analysis.json",
+  "videos": {
+    "sequence-analysis/human-reads-removal/tutorial": {
+      "description": null,
+      "materials": [
+        {
+          "link": "topics/sequence-analysis/tutorials/human-reads-removal/tutorial.html",
+          "title": "Removal of human reads from SARS-CoV-2 sequencing data",
+          "type": "Tutorial"
+        },
+        {
+          "external": true,
+          "link": "https://usegalaxy.eu/u/wolfgang-maier/h/removal-of-human-reads-from-sars-cov-2-sequencing-data",
+          "title": "Example History",
+          "type": "Example History"
+        }
+      ],
+      "tags": [
+        "sequence-analysis"
+      ],
+      "type": "Tutorial",
+      "gtn_id": "sequence-analysis/human-reads-removal",
+      "title": "Removal of human reads from SARS-CoV-2 sequencing data"
+    },
+    "sequence-analysis/mapping/slides": {
+      "description": "This lecture covers the basic concepts involved in mapping sequencing reads to a reference genome.",
+      "materials": [
+        {
+          "link": "topics/sequence-analysis/tutorials/mapping/slides.html",
+          "title": "Mapping",
+          "type": "Slides"
+        }
+      ],
+      "tags": [
+        "sequence-analysis"
+      ],
+      "type": "Lecture",
+      "versions": [
+        {
+          "captions": [
+            "blankenberg"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "10M",
+          "link": "7FhHb8EV3EU",
+          "speakers": [
+            "pvanheus"
+          ]
+        }
+      ],
+      "gtn_id": "sequence-analysis/mapping",
+      "title": "Mapping",
+      "captioned": true
+    },
+    "sequence-analysis/mapping/tutorial": {
+      "description": "In this tutorial you will map sequencing data to a reference genome, and explore the mapped reads in a genome browser.",
+      "materials": [
+        {
+          "link": "topics/sequence-analysis/tutorials/mapping/tutorial.html",
+          "title": "Mapping",
+          "type": "Tutorial"
+        }
+      ],
+      "tags": [
+        "sequence-analysis"
+      ],
+      "type": "Tutorial",
+      "versions": [
+        {
+          "captions": [
+            "shiltemann"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "20M",
+          "link": "1wm-62E2NkY",
+          "speakers": [
+            "pvanheus"
+          ]
+        }
+      ],
+      "gtn_id": "sequence-analysis/mapping",
+      "title": "Mapping",
+      "captioned": true
+    },
+    "sequence-analysis/quality-control/slides": {
+      "description": "This lecture goes over the concepts involved in assessing the quality of your sequencing data.",
+      "materials": [
+        {
+          "link": "topics/sequence-analysis/tutorials/quality-control/slides.html",
+          "title": "Introduction to Quality Control",
+          "type": "Slides"
+        }
+      ],
+      "tags": [
+        "sequence-analysis"
+      ],
+      "type": "Lecture",
+      "versions": [
+        {
+          "captions": [
+            "ennovytje",
+            "nagoue",
+            "hexylena"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "40M",
+          "link": "BWonTPS4zB8",
+          "speakers": [
+            "heylf"
+          ]
+        }
+      ],
+      "gtn_id": "sequence-analysis/quality-control",
+      "title": "Quality Control",
+      "captioned": true
+    },
+    "sequence-analysis/quality-control/tutorial": {
+      "description": "In this tutorial you will get some hand-on experience performing a quality assessment on sequencing data.",
+      "materials": [
+        {
+          "link": "topics/sequence-analysis/tutorials/quality-control/tutorial.html",
+          "type": "Tutorial"
+        }
+      ],
+      "tags": [
+        "sequence-analysis"
+      ],
+      "type": "Tutorial",
+      "versions": [
+        {
+          "captions": [
+            "bebatut",
+            "nagoue",
+            "shiltemann"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "1H10M",
+          "link": "QJRlX2hWDKM",
+          "speakers": [
+            "heylf"
+          ]
+        }
+      ],
+      "gtn_id": "sequence-analysis/quality-control",
+      "title": "Quality Control",
+      "captioned": true
+    }
+  }
+}

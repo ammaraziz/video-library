@@ -1,0 +1,173 @@
+{
+  "url": "/video-library/api/tags/metagenomics.json",
+  "videos": {
+    "metagenomics/clinical-applications": {
+      "title": "Nanopore Whole Bacterial Genome Sequencing in a Clinical Setting",
+      "description": "Nanopore Sequencing has many applications in a clinical setting. In this lecture, Astrid Heikema discusses how her group at the Erasmus Medical Center uses Nanopore for sequencing of bacterial Genomes.",
+      "materials": [
+
+      ],
+      "tags": [
+        "metagenomics"
+      ],
+      "type": "Lecture",
+      "versions": [
+        {
+          "captions": [
+            "hexylena"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "30M",
+          "link": "icXMqMut6PY",
+          "speakers": [
+            "aheikema"
+          ]
+        }
+      ],
+      "gtn_id": "metagenomics/clinical-applications",
+      "captioned": true
+    },
+    "metagenomics/introduction/slides": {
+      "description": "This lecture briefly introduces 16S sequencing, a popular technique used for taxonomic profiling of microbial communities.",
+      "materials": [
+        {
+          "link": "topics/metagenomics/slides/introduction.html",
+          "title": "Introduction to Metagenomics Analyses",
+          "type": "Slides"
+        }
+      ],
+      "tags": [
+        "metagenomics"
+      ],
+      "type": "Lecture",
+      "versions": [
+        {
+          "captions": [
+            "shiltemann"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "15M",
+          "link": "9OY1mklWuK0",
+          "speakers": [
+            "shiltemann"
+          ]
+        }
+      ],
+      "gtn_id": "metagenomics/introduction",
+      "title": "Introduction to metagenomics",
+      "captioned": true
+    },
+    "metagenomics/metatranscriptomics": {
+      "description": "Metatranscriptomics analysis examines how the microbiome responds to the environment by studying the taxonomic composition and functional analysis of genes expressed by the microbiome, using microbial community RNASeq data and subsequent metatranscriptomics workflows. This workshop will introduce researchers to the basic concepts and tools from the ASaiM-MT workflow. ASaiM-MT provides a curated collection of tools to explore and visualize taxonomic and functional information from metatranscriptomic sequences.",
+      "materials": [
+        {
+          "external": true,
+          "link": "https://drive.google.com/file/d/11TOrL7Kxgel71AT1rBc4DqjaUh3QB2G_/view?usp=sharing",
+          "type": "Slides from video"
+        },
+        {
+          "link": "topics/metagenomics/tutorials/metatranscriptomics/slides.html",
+          "title": "Introduction to Metatranscriptomics",
+          "type": "Related Slides"
+        },
+        {
+          "link": "topics/metagenomics/tutorials/metatranscriptomics/tutorial.html",
+          "type": "Tutorial"
+        }
+      ],
+      "tags": [
+        "metagenomics"
+      ],
+      "type": "Tutorial",
+      "versions": [
+        {
+          "captions": [
+            "EngyNasr",
+            "shiltemann"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "1H30M",
+          "link": "EMaos5u1_a8",
+          "speakers": [
+            "pratikdjagtap",
+            "timothygriffin",
+            "subinamehta",
+            "shiltemann"
+          ]
+        }
+      ],
+      "gtn_id": "metagenomics/metatranscriptomics",
+      "title": "Metatranscriptomics analysis using microbiome RNA-seq data",
+      "captioned": true
+    },
+    "metagenomics/mothur-miseq-sop-short/tutorial": {
+      "description": "This lecture briefly introduces 16S sequencing, a popular technique used for taxonomic profiling of microbial communities.",
+      "materials": [
+        {
+          "link": "topics/metagenomics/tutorials/mothur-miseq-sop-short/tutorial.html",
+          "type": "Tutorial"
+        }
+      ],
+      "tags": [
+        "metagenomics"
+      ],
+      "type": "Tutorial",
+      "versions": [
+        {
+          "captions": [
+            "shiltemann"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "1H40M",
+          "link": "mto4Nl-q7Kk",
+          "speakers": [
+            "shiltemann"
+          ]
+        }
+      ],
+      "gtn_id": "metagenomics/mothur-miseq-sop-short",
+      "title": "16S Microbial Analysis with mothur (short)",
+      "captioned": true
+    },
+    "metagenomics/plasmid-metagenomics-nanopore/tutorial": {
+      "description": "This tutorial will guide you through the process of assembling your Nanopore-sequenced bacterial samples and determining the presence of antibiotic resistance genes.",
+      "materials": [
+        {
+          "link": "topics/metagenomics/tutorials/plasmid-metagenomics-nanopore/tutorial.html",
+          "title": "Antibiotic resistance detection of plasmid data",
+          "type": "Tutorial"
+        },
+        {
+          "link": "topics/metagenomics/tutorials/nanopore-16S-metagenomics/tutorial.html",
+          "title": "16S Microbial analysis with Nanopore data",
+          "type": "Related Tutorial"
+        }
+      ],
+      "tags": [
+        "metagenomics"
+      ],
+      "type": "Tutorial",
+      "versions": [
+        {
+          "captions": [
+            "bebatut"
+          ],
+          "date": "2021-02-15",
+          "galaxy_version": "21.01",
+          "length": "45M",
+          "link": "ECIl8ZU1Wko",
+          "speakers": [
+            "willemdek11"
+          ]
+        }
+      ],
+      "gtn_id": "metagenomics/plasmid-metagenomics-nanopore",
+      "title": "Antibiotic resistance detection",
+      "captioned": true
+    }
+  }
+}
