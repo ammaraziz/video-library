@@ -29,14 +29,14 @@ feedback:
 
 Please install the following software:
 
-	1. Firefox/Chromeish
-	2. UGENE - http://ugene.net/download-all.html
-	3a. Windows: [Notepad++](https://notepad-plus-plus.org/downloads/) or [Sublime](https://www.sublimetext.com/download/)
-	3b. [Sublime](https://www.sublimetext.com/download)
- 4. Figtree - https://github.com/rambaut/figtree/releases
-	5. Inkscape - https://inkscape.org/release/inkscape-1.2.1/
-	6. MS office or [LibreOffice](https://www.libreoffice.org/)
-	7. 7zip - https://www.7-zip.org/
+1. Firefox/Chromeish
+2. UGENE - http://ugene.net/download-all.html
+3a. Windows: [Notepad++](https://notepad-plus-plus.org/downloads/) or [Sublime](https://www.sublimetext.com/download/)
+3b. [Sublime](https://www.sublimetext.com/download)
+4. Figtree - https://github.com/rambaut/figtree/releases
+5. Inkscape - https://inkscape.org/release/inkscape-1.2.1/
+6. MS office or [LibreOffice](https://www.libreoffice.org/)
+7. 7zip - https://www.7-zip.org/
 
 We will be using the Australian Galaxy server for all bioinformatics training.
 
