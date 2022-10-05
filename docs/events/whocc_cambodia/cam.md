@@ -64,12 +64,16 @@ program:
             - label: ONT
               link: https://stab.st-andrews.ac.uk/wiki/index.php/MinKNOW_folders_and_log_files
       - video: galaxy/intro
-      - video: sequence-analysis/quality-control/slides
-      - video: sequence-analysis/mapping/slides
+
   day2:
     title: "Day 2"
     description: "Some description about today's content"
     trainings:
+      - video: sequence-analysis/quality-control/slides
+      - video: sequence-analysis/mapping/slides
       - video: variant-analysis/sars-cov-2-variant-discovery/tutorial
+      - self-study: variant-analysis/non-dip
+      - self-study: evolution/mtb_phylogeny
+      
 
 ---
