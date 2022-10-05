@@ -10,11 +10,6 @@ date:
   start: 2022-10-10
   end: 2022-10-15
 
-setup:
-  servers:
-    - server: au
-      tiaas: whocc_cambodia
-
 program:
   day1:
     title: "Day 1 - Overview and theory of NGS technologies"
