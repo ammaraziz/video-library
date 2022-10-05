@@ -88,12 +88,6 @@
         },
         {
           "video": "galaxy/intro"
-        },
-        {
-          "video": "sequence-analysis/quality-control/slides"
-        },
-        {
-          "video": "sequence-analysis/mapping/slides"
         }
       ]
     },
@@ -102,7 +96,19 @@
       "description": "Some description about today's content",
       "trainings": [
         {
+          "video": "sequence-analysis/quality-control/slides"
+        },
+        {
+          "video": "sequence-analysis/mapping/slides"
+        },
+        {
           "video": "variant-analysis/sars-cov-2-variant-discovery/tutorial"
+        },
+        {
+          "self-study": "variant-analysis/non-dip"
+        },
+        {
+          "self-study": "evolution/mtb_phylogeny"
         }
       ]
     }
