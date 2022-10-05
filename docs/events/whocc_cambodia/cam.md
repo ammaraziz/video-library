@@ -9,25 +9,10 @@ institutions: [gtn, gallantries, biocommons, whocc]
 date:
   start: 2022-10-10
   end: 2022-10-15
-
-practical:
-  - name: Infustracture
-    text: "[Galacy Australia Training Server]([https://usegalaxy.eu](https://usegalaxy.org.au/join-training/whocc_cambodia))"
-
-setup:
-  servers:
-    - server: au
-      tiaas: whocc_cambodia
-
+  
 program:
   day1:
     title: "Day 1 - Overview and theory of NGS technologies"
-    description: |
-      Objectives:
-        - Gain an understanding  of sequencing technology (Sanger, Illumina, ONT)
-        - Overview of Illumina/ONT output file structure
-        - Overview of commonly used file formats (Fasta, Fastq etc)
-        - Recommended best practices
     trainings:
       - external:
         title: DNA Sequencing - Definition, Principle, Steps, Types, Uses
