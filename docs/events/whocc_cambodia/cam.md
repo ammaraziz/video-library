@@ -42,13 +42,14 @@ program:
     trainings:
       - external:
           title: DNA Sequencing - Definition, Principle, Steps, Types, Uses
-          description: test
           other:
             - label: Types of Sequencing
               link: https://thebiologynotes.com/dna-sequencing-principle-steps-types-uses/
             - label: Overview of NGS technology
-              link: https://thebiologynotes.com/dna-sequencing-principle-steps-types-uses/
+              link: https://thebiologynotes.com/next-generation-sequencing-ngs/
       - video: introduction/galaxy-intro-ngs-data-managment
+        prefix: Common data formats1
+        title: Common data formats2
       - video: galaxy/intro
       - video: sequence-analysis/quality-control/slides
       - video: sequence-analysis/mapping/slides
@@ -59,4 +60,3 @@ program:
       - video: variant-analysis/sars-cov-2-variant-discovery/tutorial
 
 ---
-## Course Description
