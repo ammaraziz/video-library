@@ -87,9 +87,11 @@ program:
             - label: How to read a phylogenetic tree by Andrew Rambaut
               link: https://artic.network/how-to-read-a-tree.html
       - self-study: evolution/mtb_phylogeny
+
   day3:
-    title: "Session 3: From Noice to Proficent - What next?
+    title: "Session 3: From Noice to Proficent - What next?"
     description: |
+      Objectives
         - Resources for future learning
         - Support post-training
         - Galaxy Training Network
@@ -99,14 +101,15 @@ program:
       - self-study: galaxy-interface/workflow-editor
         prefix: "(Optional)"
       - video: galaxy-interface/upload-to-ena
-      - video: metagenomics/introduction/slides
-      - video: transcriptomics/scrna-intro/slides
+      - video: metagenomics/introduction
+      - video: transcriptomics/scrna-intro
       - external:
-        title: "Resource: The Carpentries"
-          - label: "Carpentries for Genomics"
-            link: https://datacarpentry.org/lessons/#genomics-workshop
-          - label: "Carpentries for Software R and Python"
-            link: https://software-carpentry.org/lessons/
-          - label: "The Carpentries Main Site"
-            link: https://carpentries.org/workshops-curricula/
+          title: "Resource: The Carpentries"
+          other:
+            - label: "Carpentries for Genomics"
+              link: https://datacarpentry.org/lessons/#genomics-workshop
+            - label: "Carpentries for Software R and Python"
+              link: https://software-carpentry.org/lessons/
+            - label: "The Carpentries Main Site"
+              link: https://carpentries.org/workshops-curricula/
 ---
