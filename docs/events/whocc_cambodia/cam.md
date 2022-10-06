@@ -50,11 +50,11 @@ program:
       - video: introduction/galaxy-intro-ngs-data-managment
         prefix: Common data formats
       - external:
-          title: Common data formats 2
+          title: Resources on bioinfo file formats
           other:
-            - label: Sequence file formats 1
+            - label: Sequence file formats
               link: https://www.algosome.com/articles/bioinformatics-sequence-file-formats.html
-            - label: vcf and gff
+            - label: Sequence file formats vcf and gff
               link: https://www.hadriengourle.com/tutorials/file_formats/
       - external: 
           title: Understanding the output of Illumina/ONT
