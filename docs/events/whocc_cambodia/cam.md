@@ -102,7 +102,7 @@ program:
     trainings:
       - self-study: galaxy-interface/workflow-editor
         prefix: "(Optional)"
-      - video: galaxy-interface/upload-to-ena
+      - self-study: galaxy-interface/upload-to-ena
         prefix: "(Optional)"
       - video: metagenomics/introduction
       - video: transcriptomics/scrna-intro
