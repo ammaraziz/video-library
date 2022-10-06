@@ -59,7 +59,7 @@ program:
       - external: 
           title: Understanding the output of Illumina/ONT
           other:
-            - label: Illumina ncl2fastq2 [pdf]
+            - label: Illumina ncl2fastq2 pdf
               link: https://support.illumina.com/content/dam/illumina-support/documents/documentation/software_documentation/bcl2fastq/bcl2fastq2-v2-20-software-guide-15051736-03.pdf
             - label: ONT
               link: https://stab.st-andrews.ac.uk/wiki/index.php/MinKNOW_folders_and_log_files
@@ -74,12 +74,12 @@ program:
       - video: variant-analysis/sars-cov-2-variant-discovery/tutorial
       - self-study: variant-analysis/non-dip
       - external:
-        title: Introduction to Phylogenetics
-        video: QasuKryesOQ
-        other:
-          - label: EMBL Online Course on Phylogenetics
-            link: https://www.ebi.ac.uk/training/online/courses/introduction-to-phylogenetics/what-is-phylogenetics/
-          - label: How to read a phylogenetic tree by Andrew Rambaut
-            link: https://artic.network/how-to-read-a-tree.html
+          title: Introduction to Phylogenetics
+          video: QasuKryesOQ
+          other:
+            - label: EMBL Online Course on Phylogenetics
+              link: https://www.ebi.ac.uk/training/online/courses/introduction-to-phylogenetics/what-is-phylogenetics/
+            - label: How to read a phylogenetic tree by Andrew Rambaut
+              link: https://artic.network/how-to-read-a-tree.html
       - self-study: evolution/mtb_phylogeny
 ---
