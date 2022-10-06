@@ -20,6 +20,10 @@ setup:
     - server: au
       tiaas: whocc_cambodia
 
+feedback:  
+  form: "https://www.surveymonkey.com/r/NKPYTJN"
+
+
 program:
   day0:
     title: Please install the following software
@@ -102,17 +106,33 @@ program:
     trainings:
       - self-study: galaxy-interface/workflow-editor
         prefix: "(Optional)"
-      - self-study: galaxy-interface/upload-to-ena
-        prefix: "(Optional)"
+      - video: galaxy-interface/upload-to-ena
       - video: metagenomics/introduction
       - video: transcriptomics/scrna-intro
       - external:
-          title: "Resource: The Carpentries"
+          title: "The Carpentries"
           other:
+
+
+  wrapup:
+    title: Wrap-up
+    description: Thanks for joining this course!
+    trainings:
+      - basics: feedback        # predifind section, this will link to the survey form you defined above.
+      - external: 
+          title: "Resource for the future"
+          other:
+            - label: "Galaxy Training Network"
+              link: https://training.galaxyproject.org/
+            - label: "GTN Smörgåsbord"
+              link: https://gallantries.github.io/video-library/events/smorgasbord2/tapas.html
+            - label: Galaxy Community Conference 2023
+              label: https://galaxyproject.org/gcc/
+              label: https://www.biocommons.org.au/news/gcc2023-announcement
             - label: "Carpentries for Genomics"
               link: https://datacarpentry.org/lessons/#genomics-workshop
             - label: "Carpentries for Software R and Python"
               link: https://software-carpentry.org/lessons/
-            - label: "The Carpentries Main Site"
-              link: https://carpentries.org/workshops-curricula/
+
+      
 ---
