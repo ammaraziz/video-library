@@ -73,7 +73,13 @@ program:
       - video: sequence-analysis/mapping/slides
       - video: variant-analysis/sars-cov-2-variant-discovery/tutorial
       - self-study: variant-analysis/non-dip
+      - external:
+        title: Introduction to Phylogenetics
+        video: QasuKryesOQ
+        other:
+          - label: EMBL Online Course on Phylogenetics
+            link: https://www.ebi.ac.uk/training/online/courses/introduction-to-phylogenetics/what-is-phylogenetics/
+          - label: How to read a phylogenetic tree by Andrew Rambaut
+            link: https://artic.network/how-to-read-a-tree.html
       - self-study: evolution/mtb_phylogeny
-      
-
 ---
