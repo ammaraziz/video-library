@@ -34,7 +34,7 @@
       "description": "- Modern browser Firefox/Chrome/Edge\n- [UGENE](http://ugene.net/download-all.html) \n- [Notepad++](https://notepad-plus-plus.org/downloads/) or [Sublime](https://www.sublimetext.com/download)\n- [Figtree](https://github.com/rambaut/figtree/releases)\n- [Inkscape](https://inkscape.org/release/inkscape-1.2.1/)\n- MS office or [LibreOffice](https://www.libreoffice.org/)\n- [7zip](https://www.7-zip.org/)\n"
     },
     "day1": {
-      "title": "Day 1 - Overview and theory of NGS technologies",
+      "title": "Session 1: From Wet to Dry - Overview of NGS Technology",
       "description": "Objectives:\n  - Gain an understanding  of sequencing technology (Sanger, Illumina, ONT)\n  - Overview of Illumina/ONT output file structure\n  - Overview of commonly used file formats (Fasta, Fastq etc)\n  - Recommended best practices\n",
       "trainings": [
         {
@@ -77,7 +77,7 @@
             "other": [
               {
                 "label": "Illumina ncl2fastq2 pdf",
-                "link": "https://support.illumina.com/content/dam/illumina-support/documents/documentation/software_documentation/bcl2fastq/bcl2fastq2-v2-20-software-guide-15051736-03.pdf"
+                "link": "http://www.bea.ki.se/documents/bcl2fastq.pdf"
               },
               {
                 "label": "ONT",
@@ -92,8 +92,8 @@
       ]
     },
     "day2": {
-      "title": "Day 2",
-      "description": "Some description about today's content",
+      "title": "Session 2: From Reads to Trees",
+      "description": "Objectives:\n  - Theory and practice of assessing the quality of your sequencing data\n  - Theory of mapping sequencing reads to a reference genome\n  - Phylogenetic theory and practice\n  - Hands on experience with Galaxy for Mapping, Variant Calling, Consensus and Phylogenetics\n",
       "trainings": [
         {
           "video": "sequence-analysis/quality-control/slides"
@@ -125,6 +125,44 @@
         },
         {
           "self-study": "evolution/mtb_phylogeny"
+        }
+      ]
+    },
+    "day3": {
+      "title": "Session 3: From Noice to Proficent - What next?",
+      "description": "Objectives\n  - Resources for future learning\n  - Support post-training\n  - Galaxy Training Network\n  - GCC2023 - Brisbane\n  - Q&A\n",
+      "trainings": [
+        {
+          "self-study": "galaxy-interface/workflow-editor",
+          "prefix": "(Optional)"
+        },
+        {
+          "video": "galaxy-interface/upload-to-ena"
+        },
+        {
+          "video": "metagenomics/introduction"
+        },
+        {
+          "video": "transcriptomics/scrna-intro"
+        },
+        {
+          "external": {
+            "title": "Resource: The Carpentries",
+            "other": [
+              {
+                "label": "Carpentries for Genomics",
+                "link": "https://datacarpentry.org/lessons/#genomics-workshop"
+              },
+              {
+                "label": "Carpentries for Software R and Python",
+                "link": "https://software-carpentry.org/lessons/"
+              },
+              {
+                "label": "The Carpentries Main Site",
+                "link": "https://carpentries.org/workshops-curricula/"
+              }
+            ]
+          }
         }
       ]
     }
