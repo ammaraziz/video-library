@@ -32,7 +32,7 @@ program:
       - MS office or [LibreOffice](https://www.libreoffice.org/)
       - [7zip](https://www.7-zip.org/)
   day1:
-    title: "Day 1 - Overview and theory of NGS technologies"
+    title: "Session 1: From Wet to Dry - Overview of NGS Technology"
     description: |
       Objectives:
         - Gain an understanding  of sequencing technology (Sanger, Illumina, ONT)
@@ -60,14 +60,19 @@ program:
           title: Understanding the output of Illumina/ONT
           other:
             - label: Illumina ncl2fastq2 pdf
-              link: https://support.illumina.com/content/dam/illumina-support/documents/documentation/software_documentation/bcl2fastq/bcl2fastq2-v2-20-software-guide-15051736-03.pdf
+              link: http://www.bea.ki.se/documents/bcl2fastq.pdf
             - label: ONT
               link: https://stab.st-andrews.ac.uk/wiki/index.php/MinKNOW_folders_and_log_files
       - video: galaxy/intro
 
   day2:
-    title: "Day 2"
-    description: "Some description about today's content"
+    title: "Session 2: From Reads to Trees"
+    description: |
+      Objectives:
+        - Theory and practice of assessing the quality of your sequencing data
+        - Theory of mapping sequencing reads to a reference genome
+        - Phylogenetic theory and practice
+        - Hands on experience with Galaxy for Mapping, Variant Calling, Consensus and Phylogenetics
     trainings:
       - video: sequence-analysis/quality-control/slides
       - video: sequence-analysis/mapping/slides
@@ -82,4 +87,26 @@ program:
             - label: How to read a phylogenetic tree by Andrew Rambaut
               link: https://artic.network/how-to-read-a-tree.html
       - self-study: evolution/mtb_phylogeny
+  day3:
+    title: "Session 3: From Noice to Proficent - What next?
+    description: |
+        - Resources for future learning
+        - Support post-training
+        - Galaxy Training Network
+        - GCC2023 - Brisbane
+        - Q&A
+    trainings:
+      - self-study: galaxy-interface/workflow-editor
+        prefix: "(Optional)"
+      - video: galaxy-interface/upload-to-ena
+      - video: metagenomics/introduction/slides
+      - video: transcriptomics/scrna-intro/slides
+      - external:
+        title: "Resource: The Carpentries"
+          - label: "Carpentries for Genomics"
+            link: https://datacarpentry.org/lessons/#genomics-workshop
+          - label: "Carpentries for Software R and Python"
+            link: https://software-carpentry.org/lessons/
+          - label: "The Carpentries Main Site"
+            link: https://carpentries.org/workshops-curricula/
 ---
