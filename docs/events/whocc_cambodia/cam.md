@@ -105,9 +105,10 @@ program:
         - Galaxy Training Network
         - GCC2023 - Brisbane
         - Q&A
+      Optional! Choose your adventure !Optional
     trainings:
       - self-study: galaxy-interface/workflow-editor
-        prefix: "(Optional)"
+      - self-study: galaxy-interface/collections
       - video: galaxy-interface/upload-to-ena
       - video: metagenomics/introduction
       - video: transcriptomics/scrna-intro
