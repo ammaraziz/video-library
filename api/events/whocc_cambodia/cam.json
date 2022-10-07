@@ -139,11 +139,13 @@
     },
     "day3": {
       "title": "Session 3: From Noice to Proficent - What next?",
-      "description": "Objectives\n  - Resources for future learning\n  - Support post-training\n  - Galaxy Training Network\n  - GCC2023 - Brisbane\n  - Q&A\n",
+      "description": "Objectives\n  - Resources for future learning\n  - Support post-training\n  - Galaxy Training Network\n  - GCC2023 - Brisbane\n  - Q&A\nOptional! Choose your adventure !Optional\n",
       "trainings": [
         {
-          "self-study": "galaxy-interface/workflow-editor",
-          "prefix": "(Optional)"
+          "self-study": "galaxy-interface/workflow-editor"
+        },
+        {
+          "self-study": "galaxy-interface/collections"
         },
         {
           "video": "galaxy-interface/upload-to-ena"
