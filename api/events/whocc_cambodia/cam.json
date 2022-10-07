@@ -96,7 +96,7 @@
     },
     "day2": {
       "title": "Session 2: From Reads to Trees",
-      "description": "Objectives:\n  - Theory and practice of assessing the quality of your sequencing data\n  - Theory of mapping sequencing reads to a reference genome\n  - Phylogenetic theory and practice\n  - Hands on experience with Galaxy for Mapping, Variant Calling, Consensus and Phylogenetics\n",
+      "description": "Objectives:\n  - Theory and practice of assessing the quality of your sequencing data\n  - Theory of mapping sequencing reads to a reference genome\n  - Phylogenetic theory and practice\n  - Hands on experience with Galaxy for Mapping, Variant Calling, Consensus and Phylogenetics\nData:\n  -  https://usegalaxy.org.au/u/ammar/h/cambodiatraining\n",
       "trainings": [
         {
           "video": "sequence-analysis/quality-control/slides"
