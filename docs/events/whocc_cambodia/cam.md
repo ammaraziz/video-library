@@ -105,7 +105,7 @@ program:
         - Galaxy Training Network
         - GCC2023 - Brisbane
         - Q&A
-      Optional! Choose your adventure !Optional
+        - !Optional! Choose your adventure !Optional!
     trainings:
       - self-study: galaxy-interface/workflow-editor
       - self-study: galaxy-interface/collections
