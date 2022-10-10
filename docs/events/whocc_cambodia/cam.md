@@ -129,8 +129,9 @@ program:
               link: https://training.galaxyproject.org/
             - label: "GTN Smörgåsbord"
               link: https://gallantries.github.io/video-library/events/smorgasbord2/tapas.html
-            - label: Galaxy Community Conference 2023
+            - label: Galaxy Community Conference
               label: https://galaxyproject.org/gcc/
+            - label: Galaxy Community Conference 2023
               label: https://www.biocommons.org.au/news/gcc2023-announcement
             - label: "Carpentries for Genomics"
               link: https://datacarpentry.org/lessons/#genomics-workshop
