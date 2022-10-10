@@ -84,8 +84,7 @@ program:
       - video: sequence-analysis/quality-control/tutorial
       - video: sequence-analysis/mapping/slides
       - video: sequence-analysis/mapping/tutorial
-      - video: variant-analysis/sars-cov-2-variant-discovery/tutorial
-      - self-study: variant-analysis/non-dip
+      - self-study: ariant-analysis/sars-cov-2
       - external:
           title: Introduction to Phylogenetics
           video: QasuKryesOQ
