@@ -78,7 +78,7 @@ program:
         - Phylogenetic theory and practice
         - Hands on experience with Galaxy for Mapping, Variant Calling, Consensus and Phylogenetics
       Data:
-        -  [Your Illumina and Nanopore Sequencing Data](https://usegalaxy.org.au/u/ammar/h/cambodiatraining)
+        - [Influenza Reference data right click save as](https://raw.githubusercontent.com/ammaraziz/video-library/main/docs/events/whocc_cambodia/data/consensus.fasta) 
     trainings:
       - video: sequence-analysis/quality-control/slides
       - video: sequence-analysis/quality-control/tutorial
