@@ -84,7 +84,12 @@ program:
       - video: sequence-analysis/quality-control/tutorial
       - video: sequence-analysis/mapping/slides
       - video: sequence-analysis/mapping/tutorial
+      - video: assembly/general-introduction
+      - external:
+         title: "Introduction to Reference Based Assembly"
+         video: dyGuXMyQEy8
       - self-study: variant-analysis/sars-cov-2
+      - self-study: variant-analysis/sars-cov-2-variant-discovery
       - external:
           title: Introduction to Phylogenetics
           video: QasuKryesOQ
