@@ -111,7 +111,19 @@
           "video": "sequence-analysis/mapping/tutorial"
         },
         {
+          "video": "assembly/general-introduction"
+        },
+        {
+          "external": {
+            "title": "Introduction to Reference Based Assembly",
+            "video": "dyGuXMyQEy8"
+          }
+        },
+        {
           "self-study": "variant-analysis/sars-cov-2"
+        },
+        {
+          "self-study": "variant-analysis/sars-cov-2-variant-discovery"
         },
         {
           "external": {
