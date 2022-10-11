@@ -96,7 +96,7 @@
     },
     "day2": {
       "title": "Session 2: From Reads to Trees",
-      "description": "Objectives:\n  - Theory and practice of assessing the quality of your sequencing data\n  - Theory of mapping sequencing reads to a reference genome\n  - Phylogenetic theory and practice\n  - Hands on experience with Galaxy for Mapping, Variant Calling, Consensus and Phylogenetics\nData:\n  - [Influenza Reference data right click save as](https://raw.githubusercontent.com/ammaraziz/video-library/main/docs/events/whocc_cambodia/data/consensus.fasta) \n",
+      "description": "Objectives:\n  - Theory and practice of assessing the quality of your sequencing data\n  - Theory of mapping sequencing reads to a reference genome\n  - Phylogenetic theory and practice\n  - Hands on experience with Galaxy for Mapping, Variant Calling, Consensus and Phylogenetics\nData:\n  - [Influenza Reference data right click save as](https://raw.githubusercontent.com/ammaraziz/video-library/main/docs/events/whocc_cambodia/data/consensus.fasta) \n  - [Influenza Reference h3n2 right click save as](https://raw.githubusercontent.com/ammaraziz/video-library/main/docs/events/whocc_cambodia/data/consensus_h3n2.fasta) \n  - [Influenza Reference h1n1 right click save as](https://raw.githubusercontent.com/ammaraziz/video-library/main/docs/events/whocc_cambodia/data/consensus_h1n1.fasta)\n  - [Influenza Reference h5n1 right click save as](https://raw.githubusercontent.com/ammaraziz/video-library/main/docs/events/whocc_cambodia/data/consensus_h5n1.fasta)\n",
       "trainings": [
         {
           "video": "sequence-analysis/quality-control/slides"
