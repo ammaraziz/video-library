@@ -79,6 +79,9 @@ program:
         - Hands on experience with Galaxy for Mapping, Variant Calling, Consensus and Phylogenetics
       Data:
         - [Influenza Reference data right click save as](https://raw.githubusercontent.com/ammaraziz/video-library/main/docs/events/whocc_cambodia/data/consensus.fasta) 
+        - [Influenza Reference h3n2 right click save as](https://raw.githubusercontent.com/ammaraziz/video-library/main/docs/events/whocc_cambodia/data/consensus_h3n2.fasta) 
+        - [Influenza Reference h1n1 right click save as](https://raw.githubusercontent.com/ammaraziz/video-library/main/docs/events/whocc_cambodia/data/consensus_h1n1.fasta)
+        - [Influenza Reference h5n1 right click save as](https://raw.githubusercontent.com/ammaraziz/video-library/main/docs/events/whocc_cambodia/data/consensus_h5n1.fasta)
     trainings:
       - video: sequence-analysis/quality-control/slides
       - video: sequence-analysis/quality-control/tutorial
