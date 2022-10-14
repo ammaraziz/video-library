@@ -117,11 +117,18 @@ program:
       - self-study: galaxy-interface/workflow-editor
       - self-study: galaxy-interface/collections
       - video: galaxy-interface/upload-to-ena
-      - video: metagenomics/introduction
+      - video: metagenomics/introduction/slides
       - video: transcriptomics/scrna-intro
       - external:
           title: "The Carpentries"
-          other:
+          other: 
+            - label: "Software"
+            - link: https://software-carpentry.org/lessons/
+            - label: "Data/Genomics"
+            - link: https://datacarpentry.org/lessons/#genomics-workshop
+            - label: "HPC"
+            - link: https://www.hpc-carpentry.org/
+            
 
 
   wrapup:
