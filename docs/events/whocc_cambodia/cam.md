@@ -122,15 +122,13 @@ program:
       - external:
           title: "The Carpentries"
           other: 
-            - label: "Software"
-            - link: https://software-carpentry.org/lessons/
-            - label: "Data/Genomics"
-            - link: https://datacarpentry.org/lessons/#genomics-workshop
-            - label: "HPC"
-            - link: https://www.hpc-carpentry.org/
+            - label: "Software Carpentries"
+              link: https://software-carpentry.org/lessons/
+            - label: "Data/Genomics Carpentries"
+              link: https://datacarpentry.org/lessons/#genomics-workshop
+            - label: "HPC Carpentries"
+              link: https://www.hpc-carpentry.org/
             
-
-
   wrapup:
     title: Wrap-up
     description: Thanks for joining this course!
