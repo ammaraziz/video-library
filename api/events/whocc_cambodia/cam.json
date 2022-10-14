@@ -170,21 +170,15 @@
             "title": "The Carpentries",
             "other": [
               {
-                "label": "Software"
-              },
-              {
+                "label": "Software Carpentries",
                 "link": "https://software-carpentry.org/lessons/"
               },
               {
-                "label": "Data/Genomics"
-              },
-              {
+                "label": "Data/Genomics Carpentries",
                 "link": "https://datacarpentry.org/lessons/#genomics-workshop"
               },
               {
-                "label": "HPC"
-              },
-              {
+                "label": "HPC Carpentries",
                 "link": "https://www.hpc-carpentry.org/"
               }
             ]
